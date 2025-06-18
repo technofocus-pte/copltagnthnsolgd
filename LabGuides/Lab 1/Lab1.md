@@ -1,6 +1,10 @@
 # Project 1 Lab Guide: Smart IT Helpdesk Agent for Employee Self-Service 
 
-#### **Project Title:** Smart IT Helpdesk Agent  **Level:** Beginner to Intermediate  **Estimated Time:** 90–120 minutes  **Platform:** Microsoft Copilot Studio + Microsoft Teams + Power Automate 
+#### **Project Title:** Smart IT Helpdesk Agent  
+
+**Estimated Time:** 90–120 minutes  
+
+**Platform:** Microsoft Copilot Studio + Microsoft Teams + Power Automate 
 
 ![89+ Thousand Technical Support Background Royalty-Free Images, Stock
 Photos & Pictures | Shutterstock](./media/image1.jpeg)
@@ -29,7 +33,9 @@ times and IT workload.
 
 4.  Escalate unresolved issues to human IT support 
 
-5.  Be deployed on Microsoft Teams ![Shape](./media/image3.png) 
+5.  Be deployed on Microsoft Teams
+
+![Shape](./media/image3.png) 
 
 # Pre-Requisites 
 
