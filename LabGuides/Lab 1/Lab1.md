@@ -6,9 +6,6 @@
 
 **Platform:** Microsoft Copilot Studio + Microsoft Teams + Power Automate 
 
-![89+ Thousand Technical Support Background Royalty-Free Images, Stock
-Photos & Pictures | Shutterstock](./media/image1.jpeg)
-
 # Introduction
 
 ![A screenshot of a phone AI-generated content may be
@@ -25,23 +22,21 @@ times and IT workload.
 
 # Objectives
 
-1.  Build a Copilot Studio agent that can: 
+Build a Copilot Studio agent that can: 
 
-2.  Help employees reset passwords 
+1.  Help employees reset passwords 
 
-3.  Request VPN or software access 
+2.  Request VPN or software access 
 
-4.  Escalate unresolved issues to human IT support 
+3.  Install Software
 
-5.  Be deployed on Microsoft Teams
-
+4.  Be deployed on Microsoft Teams
 ![Shape](./media/image3.png) 
-
 # Pre-Requisites 
 
 1.  Access to Microsoft Copilot Studio 
 
-2.  A Microsoft 365 tenant with Teams and SharePoint 
+2.  A Microsoft 365 tenant with Teams  
 
 3.  Power Automate access with basic flow permissions 
 
@@ -59,17 +54,17 @@ agent to streamline IT workflows.
 
 1.  Sign in to Microsoft Copilot Studio with Dev One environment
 
-> [Home - Microsoft Copilot
-> Studio](https://copilotstudio.microsoft.com/environments/Default-70d9ca6c-eefa-4403-bcbd-325818744ce2/home)
+[Home - Microsoft Copilot
+Studio](https://copilotstudio.microsoft.com/environments/Default-70d9ca6c-eefa-4403-bcbd-325818744ce2/home)
 
 ![](./media/image4.png)
 
-1.  Select **“Create”** 🡪 Choose **New Agent**. 
+2.  Select **“Create”** 🡪 Choose **New Agent**. 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image5.png)
 
-2.  From top right corner click on **Skip to configure** button.
+3.  From top right corner click on **Skip to configure** button.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
@@ -77,28 +72,30 @@ incorrect.](./media/image6.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
-3.  Enter **Name, Description and Instruction** of the agent as give
+4.  Enter **Name, Description and Instruction** of the agent as give
     below and click on **Create** button.
+    
+```
+Name: Contoso IT Assistant
 
-> **Name:** Contoso IT Assistant
->
-> **Description:** Create an IT support agent that helps users reset
-> passwords, request VPN access, and software installation
->
-> **Instruction:**
->
-> 1\. Create the IT Support Copilot Agent
->
-> 2\. Create Topics for Common IT Issues: Password Reset, Request VPN
-> Access, Install Software
->
-> 3\. Add Ticket Logging via Power Automate
->
-> 4\. Add Plugin in Copilot Studio
->
-> 5\. Test the Agent
->
-> 6\. Publish and Deploy
+Description: Create an IT support agent that helps users reset
+passwords, request VPN access, and software installation
+
+Instruction:
+
+1. Create the IT Support Copilot Agent
+
+2. Create Topics for Common IT Issues: Password Reset, Request VPN
+Access, Install Software
+
+3. Add Ticket Logging via Power Automate
+
+4. Add Plugin in Copilot Studio
+
+5. Test the Agent
+
+6. Publish and Deploy
+```
 
 4.  DO the following Agent settings : On overview page of Contoso IT
     Assistant
@@ -136,7 +133,7 @@ By completing this exercise, participants will learn:
 
 - Practical skills in enabling generative AI and orchestrator settings
 
-**Note:** The agent is now named "Contoso IT Assistant" and is set up to
+> **Note:** The agent is now named "Contoso IT Assistant" and is set up to
 help users with password resets, VPN access requests, and software
 installations.
 
@@ -177,19 +174,19 @@ environment.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image15.png)
 
-2\.  From the left navigation bar select **Tables 🡪** click on the **+
+1.  From the left navigation bar select **Tables 🡪** click on the **+
 New table** and then select **Create new tables**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image16.png)
 
-3\.  Select **Import an Excel file or CSV** option to create a new
+2.  Select **Import an Excel file or CSV** option to create a new
 table.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image17.png)
 
-4\.  Click on the select form device option and select **Support
+3.  Click on the select form device option and select **Support
 Ticket** excel file from your local system and click **Import.**
 
 ![A screenshot of a computer AI-generated content may be
@@ -198,19 +195,19 @@ incorrect.](./media/image18.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image19.png)
 
-5\.  Select the table and click on **View data** to see the table.
+4.  Select the table and click on **View data** to see the table.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image20.png)
 
-**Note:** In my case, the table is named **Employee Technical Support
+> **Note:** In my case, the table is named **Employee Technical Support
 Record**. The name may vary with each execution. Please save the table
 name for future reference.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image21.png)
 
-6\.  Go to table data, select **Technical Issue Description down arrow**
+5.  Go to table data, select **Technical Issue Description down arrow**
 
     select **Edit column,** set the data type as **Text** -\> Multipl
 line of Text -\> **Plain Text** and click on the **Update.**
@@ -218,7 +215,7 @@ line of Text -\> **Plain Text** and click on the **Update.**
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image22.png)
 
-8\.  From top right side click on **Save and exit**to save the table.
+6.  From top right side click on **Save and exit**to save the table.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image23.png)
@@ -291,18 +288,18 @@ incorrect.](./media/image31.png)
 
 2.  Scroll down and go to message node. Update the message after bot
     name as given below:
+```
+Hello! I'm your virtual IT assistant.** I'm here to help you with
+the following common requests:
 
-> **Hello! I'm your virtual IT assistant.** I'm here to help you with
-> the following common requests:
->
-> 🔐 **Reset password**
->
-> 🌐 **Request VPN access**
->
-> 💻 **Install software**
->
-> Please choose an option to get started.
+🔐 **Reset password**
 
+🌐 **Request VPN access**
+
+💻 **Install software**
+
+Please choose an option to get started.
+```
 ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image32.png)
 
@@ -319,11 +316,11 @@ incorrect.](./media/image33.png)
 
 2.  Click on **+ Add a topic** 🡪 select **Add from description with
     Copilot** and enter the following details and click **Create.**
+```
+Name your topic: Reset password
 
-**Name your topic:** Reset password
-
-**Create a topic to:** Instruct user to reset their password
-
+Create a topic to: Instruct user to reset their password
+```
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image34.png)
 
@@ -332,8 +329,8 @@ incorrect.](./media/image35.png)
 
 3.  Scroll to the message node and update the agent response with the
     given instructions:
-
-> To reset your password, please follow these steps:
+```
+To reset your password, please follow these steps:
 
 - Go to the login page.
 
@@ -344,7 +341,7 @@ incorrect.](./media/image35.png)
 - Check your email for a password reset link.
 
 - Follow the instructions in the email to reset your password.
-
+```
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image36.png)
 
@@ -388,15 +385,20 @@ incorrect.](./media/image43.png)
 
 5.  Again, click on **+ sign** and add a question node to update the
     agent query:
-
+    
+```
 “Why do you need VPN access?”
+```
 
 6.  Select **Identify** as **Multiple choice options,** click on **+ New
     option** and add following options for the user to select:
-
+    
+```
 - Remote Desktop
 
 - Team Collaboration
+
+```
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image44.png)
@@ -406,46 +408,46 @@ incorrect.](./media/image45.png)
 
 7.  Now add the agent response in the **Message node**, click **+ Add a
     node 🡪** select **Message node**
+```
+Message: **Response**: To request VPN access, follow these steps:
 
-> Message: **Response**: To request VPN access, follow these steps:
->
-> **Identify the VPN Requirements**: Determine the specific VPN service
-> you need access to and any requirements or prerequisites for access.
->
-> **Contact IT Support**: Reach out to your organization's IT support
-> team. This can usually be done via email, phone, or through a
-> dedicated support portal.
->
-> **Provide Necessary Information**: When contacting IT support, include
-> the following details:
->
-> Your full name and job title.
->
-> Your department or team.
->
-> The reason for requesting VPN access.
->
-> Any specific resources or systems you need to access via the VPN.
->
-> **Follow Security Protocols**: Ensure you follow any security
-> protocols or guidelines provided by your IT department. This may
-> include verifying your identity or completing a security training.
->
-> **Wait for Approval**: After submitting your request, wait for
-> approval from the IT team. They may need to verify your information
-> and ensure you meet the requirements for VPN access.
->
-> **Install VPN Software**: Once your request is approved, you will
-> receive instructions on how to install and configure the VPN software.
-> Follow these instructions carefully.
->
-> **Test the VPN Connection**: After installation, test the VPN
-> connection to ensure it is working correctly. If you encounter any
-> issues, contact IT support for further assistance.
+**Identify the VPN Requirements**: Determine the specific VPN service
+you need access to and any requirements or prerequisites for access.
+
+**Contact IT Support**: Reach out to your organization's IT support
+team. This can usually be done via email, phone, or through a
+dedicated support portal.
+
+**Provide Necessary Information**: When contacting IT support, include
+the following details:
+
+Your full name and job title.
+
+Your department or team.
+
+The reason for requesting VPN access.
+
+Any specific resources or systems you need to access via the VPN.
+
+**Follow Security Protocols**: Ensure you follow any security
+protocols or guidelines provided by your IT department. This may
+include verifying your identity or completing a security training.
+
+**Wait for Approval**: After submitting your request, wait for
+approval from the IT team. They may need to verify your information
+and ensure you meet the requirements for VPN access.
+
+**Install VPN Software**: Once your request is approved, you will
+receive instructions on how to install and configure the VPN software.
+Follow these instructions carefully.
+
+**Test the VPN Connection**: After installation, test the VPN
+connection to ensure it is working correctly. If you encounter any
+issues, contact IT support for further assistance.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image46.png)
-
+```
 8.  Add End of conversation node 🡪 click **Save**
 
 ![A screenshot of a computer AI-generated content may be
@@ -463,13 +465,15 @@ incorrect.](./media/image48.png)
 incorrect.](./media/image40.png)
 
 2.  Enter the following details, and click **Create**
-
+   
+```
 Name your topic: Install Software
 
 Create a topic to: Help user to install Zoom and Power BI software
 applications
+```
 
-**Note**: We are limiting the software installation for Zoom and Power
+> **Note**: We are limiting the software installation for Zoom and Power
 BI applications.
 
 ![A screenshot of a computer AI-generated content may be
@@ -478,7 +482,7 @@ incorrect.](./media/image49.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image50.png)
 
-**Note**: Delete both the message nodes generated by default, right
+> **Note**: Delete both the message nodes generated by default, right
 click on the **Message** **node** and select **delete**.
 
 ![A screenshot of a computer AI-generated content may be
@@ -486,7 +490,8 @@ incorrect.](./media/image51.png)
 
 3.  Now, click on **+ Add a node** to add a question node 🡪 enter the
     agent query :
-
+    
+```
 “Choose the application you want to install”
 
 Add options:
@@ -494,8 +499,9 @@ Add options:
 - Zoom
 
 - Power BI
+```
 
-**Note**: select Identify as Multiple choice options to add options
+> **Note**: select Identify as Multiple choice options to add options
 Power BI and Zoom.
 
 ![A screenshot of a computer AI-generated content may be
@@ -561,14 +567,13 @@ incorrect.](./media/image65.png)
 
 By completing this exercise, participants will learn:
 
-\- How to upload and integrate a knowledge base to enhance the bot's
+- How to upload and integrate a knowledge base to enhance the bot's
 functionality.
 
-\- Steps to customize conversation start messages for a more engaging
+- Steps to customize conversation start messages for a more engaging
 user experience.
 
-\- Techniques to update fallback responses for better handling of
-unsupported queries.
+- Techniques to create topics for automating agent responses.
 
 # Exercise 4: Automating Support Ticket Creation with Power Automate
 
@@ -597,9 +602,7 @@ incorrect.](./media/image67.png)
 incorrect.](./media/image68.png)
 
 4.  In Power automate flow, click on **When an agent calls the flow**
-    and
-
-    then select **Add an Input**.
+    and then select **Add an Input**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image69.png)
@@ -612,7 +615,6 @@ incorrect.](./media/image70.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image71.png)
 
- 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image72.png)
@@ -622,7 +624,6 @@ incorrect.](./media/image73.png)
 
 5\.  With same procedure create more input as per given below details.
 
-[TABLE]
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image73.png)
@@ -649,7 +650,6 @@ incorrect.](./media/image75.png)
     field and add input with the help of dynamic content button (Thunder
     bolt) as per the below given field.
 
-[TABLE]
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image76.png)
@@ -684,7 +684,7 @@ incorrect.](./media/image79.png)
 14. Select the flow created Rename the flow as **ITLogTicket** on the
     **Details** page and click **Save** and **Publish**
 
-**Note:** Update the other details such as : **primary owner,
+> **Note:** Update the other details such as : **primary owner,
 description** and **click Save.**
 
 ![A screenshot of a computer AI-generated content may be
@@ -736,7 +736,7 @@ incorrect.](./media/image87.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image88.png)
 
-**Note:** your flow is now ready ran successfully**.**
+> **Note:** your flow is now ready ran successfully**.**
 
 ## Task 3: Add Escalation Topic 
 
@@ -751,9 +751,11 @@ incorrect.](./media/image90.png)
 2.  Add trigger phrases: “speak to a person”, “this didn’t help”. 
 
 3.  Add a Message node to provide the support with contact info:
-
-> “You can reach our IT support team.  
-> **Email us at:** admin@M365x09815490.onmicrosoft.com”
+   
+```
+“You can reach our IT support team.  
+Email us at: admin@M365x09815490.onmicrosoft.com”
+```
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image91.png)
