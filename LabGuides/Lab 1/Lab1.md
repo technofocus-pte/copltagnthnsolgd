@@ -97,7 +97,7 @@ Access, Install Software
 6. Publish and Deploy
 ```
 
-4.  DO the following Agent settings : On overview page of Contoso IT
+4.  Do the following Agent settings : On overview page of Contoso IT
     Assistant
 
 - **Enable:** the orchestrator for the agent.
@@ -246,8 +246,7 @@ for improved interaction.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image24.png)
 
-2.  Select **Click to browse** button to add the lab file **Contoso IT
-    Support Issue** from Lab Files folder and then click on **Add** to
+2.  Select **Click to browse** button to add the lab file **Contoso Common IT Isuues** from Desktop folder and then click on **Add** to
     save the file.
 
 ![A screenshot of a computer AI-generated content may be
