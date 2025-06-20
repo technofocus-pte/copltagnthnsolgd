@@ -1,10 +1,12 @@
 # Project 2: Lab Guide: Healthcare Compliance Agent 
 
-*Project Title: Healthcare Compliance Assistant Agent   
-Estimated Time: 2 to 2.5 hours   
-Platform: Microsoft Copilot Studio + Power Automate +
-SharePoint/OneDrive *
+_Project Title: Healthcare Compliance Assistant Agent_
 
+_Estimated Time: 2 to 2.5 hours_  
+
+_Platform: Microsoft Copilot Studio + Power Automate +
+SharePoint/OneDrive_ 
+_
 ![5+ Hundred Hipaa Icon Royalty-Free Images, Stock Photos & Pictures |
 Shutterstock](./media/image1.jpeg)
 
@@ -27,10 +29,6 @@ across the organization.
 3.  Power Automate and SharePoint/OneDrive permissions 
 
 4.  HIPAA policy document (can be simulated) 
-
-# Key Personas 
-
-[TABLE]
 
 # ![Shape](./media/image2.png)Objectives 
 
