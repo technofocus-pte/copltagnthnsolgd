@@ -4,11 +4,12 @@ _Project Title: Healthcare Compliance Assistant Agent_
 
 _Estimated Time: 2 to 2.5 hours_  
 
+_version: 25 June, 2025_
+
 _Platform: Microsoft Copilot Studio + Power Automate +
 SharePoint/OneDrive_ 
 _
-![5+ Hundred Hipaa Icon Royalty-Free Images, Stock Photos & Pictures |
-Shutterstock](./media/image1.jpeg)
+
 
 # Introduction
 
