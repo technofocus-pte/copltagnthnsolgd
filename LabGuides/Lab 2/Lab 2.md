@@ -10,6 +10,7 @@ _Platform: Microsoft Copilot Studio + Power Automate +
 SharePoint/OneDrive_ 
 _
 
+![link](./media/Helathcare.jpeg)
 
 # Introduction
 
