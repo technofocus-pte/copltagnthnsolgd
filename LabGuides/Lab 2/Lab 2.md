@@ -23,11 +23,8 @@ across the organization.
 # ![Shape](./media/image2.png)Prerequisites 
 
 1.  Access to Microsoft Copilot Studio 
-
 2.  Microsoft Teams 
-
 3.  Power Automate and SharePoint/OneDrive permissions 
-
 4.  HIPAA policy document (can be simulated) 
 
 # ![Shape](./media/image2.png)Objectives 
@@ -56,19 +53,11 @@ reports. The process includes the following key steps:
 
 - Build a Healthcare Compliance Agent using Copilot Studio. 
 
-&nbsp;
-
 - Provide knowledge-based HIPAA policy responses. 
-
-&nbsp;
 
 - Allow users to submit compliance reports. 
 
-&nbsp;
-
 - Save submissions securely in a SharePoint List  
-
-&nbsp;
 
 - Send an auto-confirmation email using Power
   Automate. ![Shape](./media/image2.png)
@@ -117,18 +106,18 @@ answers HIPAA-related queries and collects monthly compliance reports." 
 You are a healthcare compliance assistant designed for Contoso Hospital.
 Your responsibilities are:
 
-1\. Answer HIPAA-related queries using the uploaded knowledge source
+1. Answer HIPAA-related queries using the uploaded knowledge source
 (HIPAA Guidelines).
 
-2\. Guide users in uploading monthly compliance reports.
+2. Guide users in uploading monthly compliance reports.
 
-3\. Collect the user's department name and uploaded file when they
+3. Collect the user's department name and uploaded file when they
 submit a report.
 
-4\. Trigger a Power Automate flow to store the report in SharePoint and
+4. Trigger a Power Automate flow to store the report in SharePoint and
 send a confirmation email.
 
-5\. Be professional, helpful, and clear in your responses. Avoid legal
+5. Be professional, helpful, and clear in your responses. Avoid legal
 advice—stick to the policy information provided in your knowledge base.
 
 3.  Let Copilot Studio generate the starter agent. 
@@ -313,7 +302,7 @@ incorrect.](./media/image29.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image30.png)
 
-## Task 2: Creating a SharePoint List: ComplianceReport
+## Task 2: Creating ComplianceReport SharePoint List
 
 Build a custom list to store metadata about compliance reports. Add
 fields like title, date, and file link. This list will be updated
