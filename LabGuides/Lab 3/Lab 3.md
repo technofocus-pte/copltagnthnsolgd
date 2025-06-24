@@ -2,9 +2,9 @@
 
 ## Scenario: Build a copilot for your retail customer webpage
 
-## ***Duration: 120 mins***
+_Duration: 120 mins_
 
-***Version: 25 June 2025***
+_Version: 25 June 2025_
 
 ![The Importance of Inventory Management for Retail
 Businesses](./media/image1.png)
@@ -68,15 +68,9 @@ refunds.
 
 - **Remy Morris** - Digital Solutions Architect 
 
-&nbsp;
-
 - **Mark Brown** – Project lead 
 
-&nbsp;
-
 - **David Flores** – App developer 
-
-&nbsp;
 
 - **Jane Miller** – App tester 
 
@@ -92,21 +86,15 @@ These personas will participate in the following sequential scenarios: 
   Contoso Electronics, and assists him in selecting the most suitable
   Power Platform tools for the implementation of the digital solutions. 
 
-&nbsp;
-
 - Mark Brown provides David Flores with an overview of the tools and
   processes involved in developing a virtual agent with copilot studio
   and power apps and creating a booking appointment and refund request
   flow using Power Automate. 
 
-&nbsp;
-
 - David successfully creates a virtual assistant, fulfilling all the
   requirements of Contoso electronics to provide virtual assistance for
   product information, booking assistance appointment and submit refund
   requests, which he then submits to Jane Miller for testing. 
-
-&nbsp;
 
 - After thorough testing and validation, Mark Brown officially deployed
   a virtual agent on Contoso electronics website for virtual assistance
@@ -642,20 +630,20 @@ incorrect.](./media/image54.png)
 > **Thank you, Full Name! Your Appointment Type appointment has been
 > booked for Appointment Date at Appointment Time. Thank you for using
 > our service.**
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image56.png)
+
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image56.png)
 
 15. Replace the placeholders Full Name, Appointment Type, Appointment
     Date, and Appointment Time with the appropriate variables by
     clicking on the **{X}** icon and selecting the corresponding custom
     variables.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image57.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image58.png)
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image57.png)
+
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image58.png)
 
 16. In the Question node, select **Multiple Choice** as the identify.
 
@@ -665,8 +653,8 @@ incorrect.](./media/image54.png)
 
     2.  **No**
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image59.png)
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image59.png)
 
 18. Below **Save the user's response** a new variable creates, click on
     the variable name (Var1), variable properties window will open,
