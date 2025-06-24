@@ -872,9 +872,8 @@ able to:
     automate the creation of support tickets using Power Automate,
     enhancing the bot's capability to manage unresolved issues and
     improve IT team workflows.
-
+    
 # Conclusion
-
 By completing these exercises, participants were able to implement a
 robust autonomous support system that improves response times, reduces
 manual workload, and enhances overall productivity for IT support
