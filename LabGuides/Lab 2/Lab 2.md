@@ -12,8 +12,6 @@ _**Platform**: Microsoft Copilot Studio + Power Automate +
 SharePoint/OneDrive_ 
 _
 
-![link](./media/Helathcare.jpeg)
-
 # Introduction
 
 The Healthcare Compliance Agent is a virtual assistant built using
