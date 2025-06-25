@@ -1,10 +1,9 @@
 ![The Importance of Inventory Management for Retail
-Businesses](./media/image6.1.png)
+Businesses](./media/cover6.1.png)
 # **Project 4: Travel Request and Policy Assistant** 
 
 *Screnario: Build Contoso Travel Assistant Travel Request and Policy
 Assistant*
-
 *Version: 25 June, 2025  
 Estimated Time: 90 to 120 mins  
 Platform: Microsoft Copilot Studio + Power Automate +
