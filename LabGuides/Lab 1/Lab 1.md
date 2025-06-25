@@ -1,4 +1,4 @@
-![What is a Virtual Agent for Call Centers?](./media/cover1.png)
+![link](./media/cover6.1.png)
 
 # Project 1 Lab Guide: Smart IT Helpdesk Agent for Employee Self-Service 
 
