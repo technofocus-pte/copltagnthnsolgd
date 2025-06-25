@@ -119,6 +119,10 @@ These personas will participate in the following sequential scenarios: 
   Miriam then asks the copilot to assist with submitting a refund
   request. The copilot guides her through the form submission process,
   enabling her to complete the refund request within the chat window.
+  
+# Architecture Diagram
+
+![Shape](./media/arch.png)
 
 # Pre-requisites 
 
