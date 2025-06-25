@@ -44,7 +44,7 @@ times and IT workload.
 # Architecture Diagram 
 
 ![A screenshot of a phone AI-generated content may be
-incorrect.](./media/Arch.png)
+incorrect.](./media/arch.png)
 
 # Key Personas 
 
