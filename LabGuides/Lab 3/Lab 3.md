@@ -1,3 +1,5 @@
+![The Importance of Inventory Management for Retail
+Businesses](./media/cover6.1.png)
 # Project 3: Lab Guide: Retail Inventory Assistant Agent 
 
 ## Scenario: Build a copilot for your retail customer webpage
