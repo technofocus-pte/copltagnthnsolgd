@@ -88,12 +88,12 @@ agent to streamline IT workflows.
 
 ![](./media/image4.png)
 
-1.  Select **“Create”** 🡪 Choose **New Agent**. 
+2.  Select **“Create”** 🡪 Choose **New Agent**. 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image5.png)
 
-2.  From top right corner click on **Skip to configure** button.
+3.  From top right corner click on **Skip to configure** button.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
@@ -101,38 +101,37 @@ incorrect.](./media/image6.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
-3.  Enter **Name, Description and Instruction** of the agent as give
+4.  Enter **Name, Description and Instruction** of the agent as give
     below and click on **Create** button.
 
-> **Name:** Contoso IT Assistant
->
-> **Description:** Create an IT support agent that helps users reset
-> passwords, request VPN access, and software installation
->
-> **Instruction:**
->
-> 1\. Create the IT Support Copilot Agent
->
-> 2\. Create Topics for Common IT Issues: Password Reset, Request VPN
-> Access, Install Software
->
-> 3\. Add Ticket Logging via Power Automate
->
-> 4\. Add Plugin in Copilot Studio
->
-> 5\. Test the Agent
->
-> 6\. Publish and Deploy
+    **Name:** Contoso IT Assistant
+    
+    **Description:** Create an IT support agent that helps users reset
+    passwords, request VPN access, and software installation
+    
+    **Instruction:**
 
-4.  Do the following Agent settings: On overview page of **Contoso IT
-    Assistant**
+    1. Create the IT Support Copilot Agent
+    
+    2. Create Topics for Common IT Issues: Password Reset, Request VPN
+    Access, Install Software
+    
+    3. Add Ticket Logging via Power Automate
+    
+    4. Add Plugin in Copilot Studio
+    
+    5. Test the Agent
+    
+    6. Publish and Deploy
 
-- **Enable:** the orchestrator for the agent.
+5.  Do the following Agent settings: On overview page of **Contoso IT Assistant**
 
-- **Disable** the **Allow the AI to use its own general knowledge**
-  option.
+    - **Enable:** the orchestrator for the agent.
+    
+    - **Disable** the **Allow the AI to use its own general knowledge**
+      option.
 
-5.  After making all necessary settings, click **Save**
+6.  After making all necessary settings, click **Save**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image8.png)
@@ -140,10 +139,10 @@ incorrect.](./media/image8.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image9.png)
 
-6.  From top right corner of the agent, click on the **Settings**
+7.  From top right corner of the agent, click on the **Settings**
     button.
 
-7.  Go to Generative AI section, select the Generative AI (Preview), set
+8.  Go to Generative AI section, select the Generative AI (Preview), set
     content moderation as **Medium** and click on **Save** to save the
     setting.
 
@@ -154,11 +153,11 @@ incorrect.](./media/image10.png)
 
 By completing this exercise, participants will learn:
 
-- How to access and set up Microsoft Copilot Studio.
+1. How to access and set up Microsoft Copilot Studio.
 
-- Steps to create and configure a custom Copilot agent.
+2. Steps to create and configure a custom Copilot agent.
 
-- Practical skills in enabling generative AI and orchestrator settings
+3. Practical skills in enabling generative AI and orchestrator settings
 
 **Note:** The agent is now named "Contoso IT Assistant" and is set up to
 help users with password resets, VPN access requests, and software
@@ -201,19 +200,19 @@ environment.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image15.png)
 
-2\.  From the left navigation bar select **Tables 🡪** click on the **+
+2.  From the left navigation bar select **Tables 🡪** click on the **+
 New table** and then select **Create new tables**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image16.png)
 
-3\.  Select **Import an Excel file or CSV** option to create a new
+3.  Select **Import an Excel file or CSV** option to create a new
 table.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image17.png)
 
-4\.  Click on the select form device option and select **Support
+4.  Click on the select form device option and select **Support
 Ticket** excel file from your local system and click **Import.**
 
 ![A screenshot of a computer AI-generated content may be
@@ -222,7 +221,7 @@ incorrect.](./media/image18.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image19.png)
 
-5\.  Select the table and click on **View data** to see the table.
+5.  Select the table and click on **View data** to see the table.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image20.png)
@@ -234,7 +233,7 @@ name for future reference.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image21.png)
 
-6\.  Go to table data, select **Technical Issue Description down arrow**
+6.  Go to table data, select **Technical Issue Description down arrow**
 
     select **Edit column,** set the data type as **Text** -\> Multipl
 line of Text -\> **Plain Text** and click on the **Update.**
@@ -242,7 +241,7 @@ line of Text -\> **Plain Text** and click on the **Update.**
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image22.png)
 
-8\.  From top right side click on **Save and exit**to save the table.
+7.  From top right side click on **Save and exit**to save the table.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image23.png)
@@ -251,12 +250,12 @@ incorrect.](./media/image23.png)
 
 By completing this exercise, participants will learn:
 
-- How to access and navigate Power Apps using admin tenant / work or
+1. How to access and navigate Power Apps using admin tenant / work or
   school credentials.
 
-- Steps to create and configure a Dataverse table by importing data.
+2. Steps to create and configure a Dataverse table by importing data.
 
-- Practical knowledge of setting up an environment to support app
+3. Practical knowledge of setting up an environment to support app
   development workflows.
 
 # Exercise 2: Enhancing Bot Capabilities
@@ -316,16 +315,16 @@ incorrect.](./media/image31.png)
 2.  Scroll down and go to message node. Update the message after bot
     name as given below:
 
-> **Hello! I'm your virtual IT assistant.** I'm here to help you with
-> the following common requests:
->
-> 🔐 **Reset password**
->
-> 🌐 **Request VPN access**
->
-> 💻 **Install software**
->
-> Please choose an option to get started.
+    > **Hello! I'm your virtual IT assistant.** I'm here to help you with
+    > the following common requests:
+    >
+    > 🔐 **Reset password**
+    >
+    > 🌐 **Request VPN access**
+    >
+    > 💻 **Install software**
+    >
+    > Please choose an option to get started.
 
 ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image32.png)
@@ -344,9 +343,9 @@ incorrect.](./media/image33.png)
 2.  Click on **+ Add a topic** 🡪 select **Add from description with
     Copilot** and enter the following details and click **Create.**
 
-**Name your topic:** Reset password
-
-**Create a topic to:** Instruct user to reset their password
+    **Name your topic:** Reset password
+    
+    **Create a topic to:** Instruct user to reset their password
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image34.png)
@@ -357,17 +356,17 @@ incorrect.](./media/image35.png)
 3.  Scroll to the message node and update the agent response with the
     given instructions:
 
-> To reset your password, please follow these steps:
-
-- Go to the login page.
-
-- Click on the 'Forgot Password' link.
-
-- Enter your registered email address.
-
-- Check your email for a password reset link.
-
-- Follow the instructions in the email to reset your password.
+    To reset your password, please follow these steps:
+    
+    - Go to the login page.
+    
+    - Click on the 'Forgot Password' link.
+    
+    - Enter your registered email address.
+    
+    - Check your email for a password reset link.
+    
+    - Follow the instructions in the email to reset your password.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image36.png)
@@ -413,14 +412,14 @@ incorrect.](./media/image43.png)
 5.  Again, click on **+ sign** and add a question node to update the
     agent query:
 
-“Why do you need VPN access?”
+    “Why do you need VPN access?”
 
 6.  Select **Identify** as **Multiple choice options,** click on **+ New
     option** and add following options for the user to select:
 
-- Remote Desktop
-
-- Team Collaboration
+    - Remote Desktop
+    
+    - Team Collaboration
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image44.png)
@@ -488,10 +487,10 @@ incorrect.](./media/image40.png)
 
 2.  Enter the following details, and click **Create**
 
-Name your topic: Install Software
-
-Create a topic to: Help user to install Zoom and Power BI software
-applications
+    **Name your topic**: Install Software
+    
+    **Create a topic to**: Help user to install Zoom and Power BI software
+    applications
 
 **Note**: We are limiting the software installation for Zoom and Power
 BI applications.
@@ -511,13 +510,13 @@ incorrect.](./media/image51.png)
 3.  Now, click on **+ Add a node** to add a question node 🡪 enter the
     agent query :
 
-“Choose the application you want to install”
+    “Choose the application you want to install”
 
-Add options:
-
-- Zoom
-
-- Power BI
+    Add options:
+    
+    - Zoom
+    
+    - Power BI
 
 **Note**: select Identify as Multiple choice options to add options
 Power BI and Zoom.
@@ -559,7 +558,7 @@ incorrect.](./media/image58.png)
 incorrect.](./media/image59.png)
 
 9.  Go to **Topic management** 🡪 **Go to another topic** 🡪 and select
-    **Escalate**
+    **Fallback**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image60.png)
@@ -585,13 +584,13 @@ incorrect.](./media/image65.png)
 
 By completing this exercise, participants will learn:
 
-\- How to upload and integrate a knowledge base to enhance the bot's
+1. How to upload and integrate a knowledge base to enhance the bot's
 functionality.
 
-\- Steps to customize conversation start messages for a more engaging
+2. Steps to customize conversation start messages for a more engaging
 user experience.
 
-\- Techniques to update fallback responses for better handling of
+3. Techniques to update fallback responses for better handling of
 unsupported queries.
 
 # Exercise 4: Automating Support Ticket Creation with Power Automate
@@ -636,7 +635,6 @@ incorrect.](./media/image70.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image71.png)
 
- 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image72.png)
@@ -644,7 +642,7 @@ incorrect.](./media/image72.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image73.png)
 
-5\.  With same procedure create more input as per given below details.
+5.  With same procedure create more input as per given below details.
 
 [TABLE]
 
@@ -740,13 +738,13 @@ incorrect.](./media/image85.png)
 
 2.  Enter the Demo input on **Run flow** window and click **Run flow**
 
-- Name: sadhana
-
-- ID: 102
-
-- Email: MODadmin
-
-- Details: Reset password
+    - Name: sadhana
+    
+    - ID: 102
+    
+    - Email: MODadmin
+    
+    - Details: Reset password
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image86.png)
@@ -776,8 +774,8 @@ incorrect.](./media/image90.png)
 
 3.  Add a Message node to provide the support with contact info:
 
-> “You can reach our IT support team.  
-> **Email us at:** admin@M365x09815490.onmicrosoft.com”
+    “You can reach our IT support team.  
+    **Email us at:** admin@M365x09815490.onmicrosoft.com”
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image91.png)
