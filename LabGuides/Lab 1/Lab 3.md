@@ -3,8 +3,9 @@
 # Project 1 Lab Guide: Smart IT Helpdesk Agent for Employee Self-Service 
 
 #### **Scenario:** Smart IT Helpdesk Agent 
-
-#### **Version**:25 June, 2025 **Estimated Time:** 120–140 minutes  **Platform:** Microsoft Copilot Studio + Microsoft Teams + Power Automate 
+#### **Version**:25 June, 2025 
+#### **Estimated Time:** 120–140 minutes  
+#### **Platform:** Microsoft Copilot Studio + Microsoft Teams + Power Automate 
 
 # Introduction
 
@@ -39,6 +40,11 @@ times and IT workload.
 2.  A Microsoft 365 tenant with Teams and SharePoint 
 
 3.  Power Automate access with basic flow permissions 
+
+# Architecture Diagram 
+
+![A screenshot of a phone AI-generated content may be
+incorrect.](./media/Arch.png)
 
 # Key Personas 
 
