@@ -1,3 +1,5 @@
+![The Importance of Inventory Management for Retail
+Businesses](./media/image6.1.png)
 # **Project 4: Travel Request and Policy Assistant** 
 
 *Screnario: Build Contoso Travel Assistant Travel Request and Policy
