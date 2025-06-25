@@ -50,7 +50,9 @@ the enterprise.
 
 - Outlook or Teams access for approvals
 
-------------------------------------------------------------------------
+# Architecture Diagram
+
+![link](./media/arch.png)
 
 # Exercise 1: Enterprise Travel Site & Data List Configuration
 
