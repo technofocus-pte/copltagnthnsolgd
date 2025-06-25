@@ -1,3 +1,5 @@
+![link](./media/cover6.1.png)
+
 # Project 2: Lab Guide: Healthcare Compliance Agent 
 
 _Project Title: Healthcare Compliance Assistant Agent_
