@@ -22,7 +22,8 @@ and Power Automate. This solution improves efficiency, reduces manual
 workload, and ensures timely documentation and regulatory adherence
 across the organization.
 
-# ![Shape](./media/image2.png)Prerequisites 
+![Shape](./media/image2.png)
+# Prerequisites 
 
 1.  Access to Microsoft Copilot Studio 
 2.  Microsoft Teams 
@@ -50,6 +51,9 @@ reports. The process includes the following key steps:
     Microsoft Teams to provide users with convenient access to the
     compliance reporting assistant directly within their Teams
     workspace.
+    
+# Architecture Diagram
+![Shape](./media/arch.png)
 
 # Core Tasks 
 
