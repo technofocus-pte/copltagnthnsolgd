@@ -2,13 +2,13 @@
 
 # Project 2: Lab Guide: Healthcare Compliance Agent 
 
-_Project Title: Healthcare Compliance Assistant Agent_
+_**Project Title**: Healthcare Compliance Assistant Agent_
 
-_Estimated Time: 2 to 2.5 hours_  
+_**Estimated Time**: 2 to 2.5 hours_  
 
-_version: 25 June, 2025_
+_**Version**: 25 June, 2025_
 
-_Platform: Microsoft Copilot Studio + Power Automate +
+_**Platform**: Microsoft Copilot Studio + Power Automate +
 SharePoint/OneDrive_ 
 _
 
