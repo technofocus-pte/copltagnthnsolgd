@@ -1,3 +1,4 @@
+![What is a Virtual Agent for Call Centers?](./media/cover1.png)
 # Project 1 Lab Guide: Smart IT Helpdesk Agent for Employee Self-Service 
 
 _**Project Title:** Smart IT Helpdesk Agent_
@@ -33,7 +34,8 @@ Build a Copilot Studio agent that can: 
 3.  Install Software
 
 4.  Be deployed on Microsoft Teams
-![Shape](./media/image3.png) 
+![Shape](./media/image3.png)
+
 # Pre-Requisites 
 
 1.  Access to Microsoft Copilot Studio 
@@ -42,6 +44,28 @@ Build a Copilot Studio agent that can: 
 
 3.  Power Automate access with basic flow permissions 
 
+# Key Personas 
+
+**Olivia Chen**
+- *Role:* (Not specified)
+- *Goals:* Improve ticket response times, reduce manual workload
+- *Pain Points:* High number of simple repetitive tickets; SLA breaches
+
+**Diego Morales**
+- *Role:* Employee (Sales Division)
+- *Goals:* Quickly reset password and request VPN access
+- *Pain Points:* Waiting 24–48 hours for basic IT help
+
+**Priya Nair**
+- *Role:* IT Business Analyst
+- *Goals:* Implement user-friendly IT automation solutions
+- *Pain Points:* Poor user experience with current helpdesk portal
+
+**YOU (Learner)**
+- *Role:* Agent Developer (Contoso IT Team)
+- *Goals:* Build and deploy a smart, scalable, self-service agent
+- *Pain Points:* Must balance functionality, governance, and usability
+  
 # Step-by-Step Instructions 
 
 # Exercise 1: Creating the Contoso IT Assistant Agent 
