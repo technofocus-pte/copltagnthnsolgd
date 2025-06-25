@@ -42,8 +42,8 @@ reports. The process includes the following key steps:
     dedicated SharePoint list for secure record-keeping and future
     reference.
 
-2.  **Trigger Email Acknowledgment  
-    **Once the report is logged, an automated email is sent to the user
+2.  **Trigger Email Acknowledgment**
+    Once the report is logged, an automated email is sent to the user
     to confirm successful submission, ensuring acknowledgment and
     improving communication transparency.
 
