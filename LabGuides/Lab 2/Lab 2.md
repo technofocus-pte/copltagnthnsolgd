@@ -10,10 +10,7 @@ _**Version**: 25 June, 2025_
 
 _**Platform**: Microsoft Copilot Studio + Power Automate +
 SharePoint/OneDrive_ 
-_
-
 # Introduction
-
 The Healthcare Compliance Agent is a virtual assistant built using
 Microsoft Copilot Studio to streamline HIPAA compliance reporting. It
 allows healthcare professionals to easily submit compliance reports,
@@ -21,7 +18,6 @@ access HIPAA guidelines, and automate report storage through SharePoint
 and Power Automate. This solution improves efficiency, reduces manual
 workload, and ensures timely documentation and regulatory adherence
 across the organization.
-
 ![Shape](./media/image2.png)
 # Prerequisites 
 
@@ -54,6 +50,14 @@ reports. The process includes the following key steps:
     
 # Architecture Diagram
 ![Shape](./media/arch.png)
+
+# Key Personas
+
+| Name              | Role                        | Goals                                                       | Challenges                                               |
+|-------------------|-----------------------------|-------------------------------------------------------------|----------------------------------------------------------|
+| Dr. Ayesha Bhatia | Medical Administrator       | Submit monthly compliance summaries easily                  | Manual email process, inconsistent file naming           |
+| Marcus Wells      | Compliance Officer          | Ensure timely and valid submissions from all departments     | Missed reports, poor visibility, no audit trail          |
+| Developer         | Copilot Agent Builder (IT)  | Automate the intake and routing of compliance documents     | Need to ensure security and ease of use                  |
 
 # Core Tasks 
 
