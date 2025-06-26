@@ -891,7 +891,35 @@ able to:
     automate the creation of support tickets using Power Automate,
     enhancing the bot's capability to manage unresolved issues and
     improve IT team workflows.
+    
+# Key Definitions
 
+1. **Trigger**
+A trigger is an event that starts a workflow or process.
+In this project, the trigger is initiated when a user submits a travel request form through the Copilot Studio agent. This sends the request data to Power Automate, where the flow begins execution.
+
+Example:
+
+- “When a Power Virtual Agents (Copilot Studio) topic sends a request to Power Automate.”
+
+2.**Tool**
+A tool in Microsoft Copilot Studio refers to external integrations or flows added to an agent topic.
+These are typically Power Automate flows that the agent can invoke to perform backend operations like sending an approval email or logging data to SharePoint.
+
+Example:
+
+- “Call a tool” → Select the Power Automate flow named TravelRequestsApprovalFlow to process and log the request.
+
+3. **Action**
+An action is an individual step within a Power Automate flow that performs a specific function.
+Actions execute tasks such as sending an email, creating a SharePoint list item, or posting a Teams message based on data passed from the agent.
+
+Examples of actions in this project:
+
+- “Send an email (V2)” – Notifies the travel approver.
+- “Create item” – Stores travel request data in a SharePoint list.
+- “Get response details” – Extracts information from the Copilot Studio form submission
+  
 # Conclusion
 
 By completing these exercises, participants were able to implement a
