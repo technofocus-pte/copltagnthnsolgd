@@ -4,7 +4,7 @@ Businesses](./media/cover6.1.png)
 
 ## Scenario: Build a copilot for your retail customer webpage
 
-_Duration: 120 mins_
+_Duration: 120-160 mins_
 
 _Version: 25 June 2025_
 
