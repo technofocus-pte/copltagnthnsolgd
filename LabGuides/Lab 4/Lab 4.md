@@ -54,6 +54,15 @@ the enterprise.
 
 ![link](./media/arch.png)
 
+# Key Personas
+
+| Name           | Role                          | Goals                                               | Challenges                                               |
+|----------------|-------------------------------|-----------------------------------------------------|----------------------------------------------------------|
+| Emma Taylor    | Sales Manager                 | Submit compliant travel requests quickly            | Unsure of policy limits, manual back-and-forth           |
+| Vivek Raj      | HR Travel Coordinator         | Process travel requests efficiently and reduce errors | Policy violations, inconsistent data formats             |
+| YOU (Developer)| Internal Agent Developer (IT) | Automate and standardize the travel request process | Balance user experience with backend compliance          |
+
+
 # Exercise 1: Enterprise Travel Site & Data List Configuration
 
 **Goal:** Let your Copilot answer travel policy questions using a
