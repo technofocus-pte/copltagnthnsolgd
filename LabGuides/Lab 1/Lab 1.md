@@ -23,15 +23,15 @@ times and IT workload.
 
 # Objectives
 
-1.  Build a Copilot Studio agent that can: 
+Build a Copilot Studio agent that can: 
 
-2.  Help employees reset passwords 
+1.  Help employees reset passwords 
 
-3.  Request VPN or software access 
+2.  Request VPN or software access 
 
-4.  Escalate unresolved issues to human IT support 
+3.  Escalate unresolved issues to human IT support 
 
-5.  Be deployed on Microsoft Teams ![Shape](./media/image3.png) 
+4.  Be deployed on Microsoft Teams ![Shape](./media/image3.png) 
 
 # Pre-Requisites 
 
@@ -83,8 +83,8 @@ agent to streamline IT workflows.
 
 1.  Sign in to Microsoft Copilot Studio with Dev One environment
 
-> [Home - Microsoft Copilot
-> Studio](https://copilotstudio.microsoft.com/environments/Default-70d9ca6c-eefa-4403-bcbd-325818744ce2/home)
+[Home - Microsoft Copilot
+Studio](https://copilotstudio.microsoft.com/environments/Default-70d9ca6c-eefa-4403-bcbd-325818744ce2/home)
 
 ![](./media/image4.png)
 
@@ -186,7 +186,7 @@ incorrect.](./media/image13.png)
 
 2.  Click Sign in and provide the Sign in details
 
-3.  Sign in to the Dev One environment
+3.  Sign in to the **Dev One** environment
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
@@ -266,7 +266,7 @@ for improved interaction.
 
 ## Task 1: Add Knowledge Base to the Agent
 
-1.  On Contoso agent overview page, scroll down and click on **+ Add
+1.  On **Contoso agent overview page**, scroll down and click on **+ Add
     Knowledge** button.
 
 ![A screenshot of a computer AI-generated content may be
@@ -412,7 +412,7 @@ incorrect.](./media/image43.png)
 5.  Again, click on **+ sign** and add a question node to update the
     agent query:
 
-    “Why do you need VPN access?”
+   **Question:** “Why do you need VPN access?”
 
 6.  Select **Identify** as **Multiple choice options,** click on **+ New
     option** and add following options for the user to select:
@@ -469,7 +469,7 @@ incorrect.](./media/image45.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image46.png)
 
-8.  Add End of conversation node 🡪 click **Save**
+8.  Add **End of conversation** node 🡪 click **Save**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image47.png)
@@ -622,7 +622,7 @@ incorrect.](./media/image68.png)
 4.  In Power automate flow, click on **When an agent calls the flow**
     and
 
-    then select **Add an Input**.
+    then select **Add an Input**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image69.png)
@@ -644,7 +644,17 @@ incorrect.](./media/image73.png)
 
 5.  With same procedure create more input as per given below details.
 
-[TABLE]
+    Input type: Name <br>
+    Date type: Text
+       
+    Input type: Email <br>
+    Date type: Email
+       
+    Input type: ID <br>
+    Date type: text
+       
+    Input type: Details <br>
+    Date type: Text
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image73.png)
@@ -661,7 +671,8 @@ incorrect.](./media/image74.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image74.png)
 
-8.  In **Table Name** section search and select **Employee Technical
+8. Configure the **Add a new row** action
+9. On **Table Name** section search and select **Employee Technical
     Support Record**.
 
 ![A screenshot of a computer AI-generated content may be
@@ -671,7 +682,17 @@ incorrect.](./media/image75.png)
     field and add input with the help of dynamic content button (Thunder
     bolt) as per the below given field.
 
-[TABLE]
+    **Table:** Employee technical Support Record
+    
+    **Parameters:** set up dynamic variables to each input parameter
+    
+       **Email Address:** /Email
+    
+       **Technical Support Description:** /Details
+    
+       **Employee ID:** /ID
+    
+       **Employee Name:** /Name
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image76.png)
@@ -719,8 +740,6 @@ incorrect.](./media/image81.png)
 incorrect.](./media/image82.png)
 
 15. From top bar right corner click **Publish.**
-
-**Contoso IT Assistant**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image83.png)
