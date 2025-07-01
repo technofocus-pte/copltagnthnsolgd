@@ -777,7 +777,7 @@ incorrect.](./media/image87.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image88.png)
 
-**Note:** your flow is now ready ran successfully**.**
+**Note:** your flow is now ready ran successfully.
 
 ## Task 3: Add Escalation Topic 
 
