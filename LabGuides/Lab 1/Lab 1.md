@@ -98,8 +98,6 @@ incorrect.](./media/image5.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image7.png)
 
 4.  Enter **Name, Description and Instruction** of the agent as give
     below and click on **Create** button.
@@ -123,6 +121,9 @@ incorrect.](./media/image7.png)
     5. Test the Agent
     
     6. Publish and Deploy
+       
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image7.png)
 
 5.  Do the following Agent settings: On overview page of **Contoso IT Assistant**
 
@@ -136,13 +137,13 @@ incorrect.](./media/image7.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image8.png)
 
+7.  From top right corner of the agent, click on the **Settings**
+    button.
+    
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image9.png)
 
-7.  From top right corner of the agent, click on the **Settings**
-    button.
-
-8.  Go to Generative AI section, select the Generative AI (Preview), set
+9.  Go to Generative AI section, select the Generative AI (Preview), set
     content moderation as **Medium** and click on **Save** to save the
     setting.
 
@@ -295,7 +296,7 @@ incorrect.](./media/image28.png)
 
 5.  In top right corner search bar, enter and search
     for **Employee** and select **Employee Technical Support
-    Record** table. Then click on the **Next, Next** and **Add** button
+    Record** table. Then click on the **Next** and **Add** button
     to add the knowledge source.
 
 ![A screenshot of a computer AI-generated content may be
@@ -619,10 +620,7 @@ incorrect.](./media/image67.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image68.png)
 
-4.  In Power automate flow, click on **When an agent calls the flow**
-    and
-
-    then select **Add an Input**
+4.  In Power automate flow, click on **When an agent calls the flow** and then select **Add an Input**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image69.png)
@@ -713,7 +711,7 @@ incorrect.](./media/image77.png)
     and select **send an email (V2)** from **office 365 outlook
     section**.
 
-12. In send an email section, Enter the below given detail in the
+12. In send an email section, enter the below given detail in the
     respected section:
 
 ![A screenshot of a computer AI-generated content may be
@@ -808,7 +806,7 @@ incorrect.](./media/image91.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image92.png)
 
-2.  Ente the prompt: Reset password and verify the response
+2.  Enter the prompt: Reset password and verify the response
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image93.png)
@@ -913,7 +911,7 @@ able to:
     
 # Key Definitions
 
-1. **Trigger**
+1. **Trigger** :
 A trigger is an event that starts a workflow or process.
 In this project, the trigger is initiated when a user submits a travel request form through the Copilot Studio agent. This sends the request data to Power Automate, where the flow begins execution.
 
@@ -921,7 +919,7 @@ Example:
 
 - “When a Power Virtual Agents (Copilot Studio) topic sends a request to Power Automate.”
 
-2.**Tool**
+2.**Tool** :
 A tool in Microsoft Copilot Studio refers to external integrations or flows added to an agent topic.
 These are typically Power Automate flows that the agent can invoke to perform backend operations like sending an approval email or logging data to SharePoint.
 
@@ -929,7 +927,7 @@ Example:
 
 - “Call a tool” → Select the Power Automate flow named TravelRequestsApprovalFlow to process and log the request.
 
-3. **Action**
+3. **Action** :
 An action is an individual step within a Power Automate flow that performs a specific function.
 Actions execute tasks such as sending an email, creating a SharePoint list item, or posting a Teams message based on data passed from the agent.
 
