@@ -82,37 +82,38 @@ agent to streamline IT workflows.
 ## Task 1: Creating and Configuring Contoso IT Assistant Agent
 
 1. Open Copilot Studio Home Page
-    Click or visit:
-🔗 Microsoft Copilot Studio Home
+   
+   **Click or visit:**
+```
+https://copilotstudio.microsoft.com/environments/4a73a65a-10b9-e7a3-aceb-bb9044566c00/home
+```
+2. **Sign In**
+   
+   Use your Microsoft admin credentials to log in securely.
 
+3. **Select Region**
+   
+   When prompted, choose United States as your region, then click Next.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/new1.png)
 
-2. Sign In
-   Use your Microsoft admin credentials to log in securely.
-
-3. Select Region
-   When prompted, choose United States as your region, then click Next.
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/new2.png)
-
-5. Skip Configuration (if prompted)
+4. Skip Configuration (if prompted)
    On the configuration screen, click Next and then Skip to proceed without custom setup.
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/New2.png)
+
+7. Navigate to the Dev One Environment
+   Once logged in successfully, look at the top-right corner or the environment selector, and switch to the “Dev one” environment to start building or managing       your agents.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/new3.png)
 
-7. Navigate to the Dev One Environment
-   Once logged in successfully, look at the top-right corner or the environment selector, and switch to the “Dev one” environment to start building or managing your agents.
-   
 9.  Select **“Create”** 🡪 Choose **New Agent**.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image5.png)
 
 7.  From top right corner click on **Skip to configure** button.
-
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
-
 
 8.  Enter **Name, Description and Instruction** of the agent as give
     below and click on **Create** button.
