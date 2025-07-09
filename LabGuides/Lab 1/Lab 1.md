@@ -81,25 +81,40 @@ agent to streamline IT workflows.
 
 ## Task 1: Creating and Configuring Contoso IT Assistant Agent
 
-1.  Sign in to Microsoft Copilot Studio with Dev One environment
+1. Open Copilot Studio Home Page
+    Click or visit:
+🔗 Microsoft Copilot Studio Home
 
-[Home - Microsoft Copilot
-Studio](https://copilotstudio.microsoft.com/environments/Default-70d9ca6c-eefa-4403-bcbd-325818744ce2/home)
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/new1.png)
 
-![](./media/image4.png)
+2. Sign In
+   Use your Microsoft admin credentials to log in securely.
 
-2.  Select **“Create”** 🡪 Choose **New Agent**. 
+3. Select Region
+   When prompted, choose United States as your region, then click Next.
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/new2.png)
 
+5. Skip Configuration (if prompted)
+   On the configuration screen, click Next and then Skip to proceed without custom setup.
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/new3.png)
+
+7. Navigate to the Dev One Environment
+   Once logged in successfully, look at the top-right corner or the environment selector, and switch to the “Dev one” environment to start building or managing your agents.
+   
+9.  Select **“Create”** 🡪 Choose **New Agent**.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image5.png)
 
-3.  From top right corner click on **Skip to configure** button.
+7.  From top right corner click on **Skip to configure** button.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
 
 
-4.  Enter **Name, Description and Instruction** of the agent as give
+8.  Enter **Name, Description and Instruction** of the agent as give
     below and click on **Create** button.
 
     **Name:** Contoso IT Assistant
@@ -125,25 +140,25 @@ incorrect.](./media/image6.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
-5.  Do the following Agent settings: On overview page of **Contoso IT Assistant**
+9.  Do the following Agent settings: On overview page of **Contoso IT Assistant**
 
     - **Enable:** the orchestrator for the agent.
     
     - **Disable** the **Allow the AI to use its own general knowledge**
       option.
 
-6.  After making all necessary settings, click **Save**
+10.  After making all necessary settings, click **Save**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image8.png)
 
-7.  From top right corner of the agent, click on the **Settings**
+11.  From top right corner of the agent, click on the **Settings**
     button.
     
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image9.png)
 
-9.  Go to Generative AI section, select the Generative AI (Preview), set
+12.  Go to Generative AI section, select the Generative AI (Preview), set
     content moderation as **Medium** and click on **Save** to save the
     setting.
 
