@@ -598,13 +598,54 @@ incorrect.](./media/image60.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image61.png)
 
+10. Configure the **Condition 1: Var1 is equal to Poer BI** node
+    Click on **+** add a new node sign, select **Send a message** option to add message node and enter the sgent repsonse in the message node as:
+   **Messgae**: Steps to Install Power BI
+            1. Go to the Official Site
+            Visit: https://powerbi.microsoft.com/desktop
+            
+            2. Click on ‘Download Free’
+            Click the Download Free button and follow the prompts.
+            
+            3. Install the Downloaded File
+            Once the .msi installer downloads, double-click it.
+
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image62.png)
 
+11. Similarly, add a message node after **Condition 2: Var2 is equal to Zoom** and enter the agent response to install Zoom app
+      **Message:** Steps to install Zoom
+                  1. Visit the Zoom Download Page
+                  Go to: https://zoom.us/download
+                  
+                  2. Choose the Right Version for Your Device
+                  For Desktop (Windows/Mac/Linux):
+                  Download "Zoom Desktop Client" by clicking the Download button.
+                  
+                  For Mobile (Android/iOS):
+                  Use your device’s app store:
+                  
+                  Google Play Store for Android
+                  
+                  App Store for iOS
+                  
+                  Search for "Zoom Cloud Meetings"
+                  
+                  3. Download and Install
+                  Desktop: Run the downloaded .exe (Windows) or .pkg (Mac) file and follow the on-screen instructions.
+                  
+                  Mobile: Tap Install (Android) or Get (iOS) and wait for it to complete.
+                  
+                  4. Launch Zoom
+                  Open Zoom from your Start Menu, Applications folder, or Home Screen.
+                   You can now sign in, join a meeting, or host a meeting.
+    
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image63.png)
 
-10. Add End of conversation over closing all the conditional nodes.
+12. After all the necessary configurations, Add End of conversation over closing all the conditional nodes.
+   **To add End of conversation node**:
+   click on **+** sign Add a node, select **Topic management** > select **Go to another topic** and, finally select **End of conversation** node 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image64.png)
@@ -612,6 +653,8 @@ incorrect.](./media/image64.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image65.png)
 
+13. click on **Save** button to save the configuration for **Install Softwrae** topic
+    
 ### Conclusion
 
 By completing this exercise, participants will learn:
