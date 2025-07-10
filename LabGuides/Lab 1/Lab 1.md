@@ -193,7 +193,7 @@ applications.
 
 ## Task 1: Logging into Power Apps
 
-1.  Navigate to **Tools** and select **Power Apps** from Copilot Studio
+1.  Navigate to **More menu** option on the left side of the navigation pane, then select Power Apps in Copilot Studio.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image12.png)
@@ -203,7 +203,7 @@ incorrect.](./media/image13.png)
 
 2.  Click Sign in and provide the Sign in details
 
-3.  Sign in to the **Dev One** environment
+3.  Sign in **Powe Apps** **Dev One** environment using the same Microsft Admin credentials
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
@@ -218,13 +218,12 @@ environment.
 incorrect.](./media/image15.png)
 
 2.  From the left navigation bar select **Tables 🡪** click on the **+
-New table** and then select **Create new tables**.
+New table** menu and then select **Create new tables**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image16.png)
 
-3.  Select **Import an Excel file or CSV** option to create a new
-table.
+3.  Select **Import an Excel file or CSV** option to import an Excel or CSV file from your local system.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image17.png)
@@ -238,10 +237,26 @@ incorrect.](./media/image18.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image19.png)
 
-5.  Select the table and click on **View data** to see the table.
+5. Select the uploaded table and click **View data** to update the table with columns with given column name and column type
+
+Column name: Employee ID
+
+Type: Text
+
+Column name: Employee Name
+
+Type: Text
+
+Column Name: Email Address
+
+Type: Text
+
+Column name: Technical Issue Description
+
+Type: multi line text
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image20.png)
+incorrect.](./media/image20.png) // change image 
 
 **Note:** In my case, the table is named **Employee Technical Support
 Record**. The name may vary with each execution. Please save the table
