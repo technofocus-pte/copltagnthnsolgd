@@ -431,14 +431,14 @@ incorrect.](./media/image40.png)
 
     Name: Request VPN Access
     Description: Help user to Request VPN Access
-
+    
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image41.png)
 
-3.  Click on **+** sign to add a **Question node** and add a agent
+4.  Click on **+** sign to add a **Question node** and add a agent
     query: **Enter your Email address**
 
-4.  Set **Identify** as **Email**
+5.  Set **Identify** as **Email**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image42.png)
@@ -624,7 +624,7 @@ incorrect.](./media/image61.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image62.png)
 
-11. Similarly, add a message node after **Condition 2: Var2 is equal to Zoom** and enter the agent response to install Zoom app
+11. Similarly, add a message node after **Condition 2: Var1 is equal to Zoom** and enter the agent response to install Zoom app
 
       **Message:** Steps to install Zoom
     
@@ -671,10 +671,14 @@ incorrect.](./media/image65.png)
 ## Task 6: Add Escalation Topic 
 
 1.  From agent's overview page Create a new topic **From blank**
-2. Configure theescalation topic:
+
+2. Configure the Escalation topic:
+   
   **Name: Talk to IT Support**
-  **Message:  “You can reach our IT support team**  
+  
+  **Message:  “You can reach our IT support team**  <br>
    *Email us at: admin@M365x09815490.onmicrosoft.com*
+   
  **Trigger phrases: “speak to a person”, “this didn’t help”.**
 
 ![A screenshot of a computer AI-generated content may be
@@ -683,14 +687,16 @@ incorrect.](./media/image89.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image90.png)
 
-3.  click on Describe what the topic does and enter the trigger phrases:
+3.  click on **Describe what the topic does** node and enter the trigger phrases:
 
    - “speak to a person”,
+     
    - “this didn’t help”. 
 
-4.  click on + sign and select send a message to add a message node and enter the Message:
+4.  Now, click on **+** sign and select **Send a message** option to add a message node and enter the Message:
 
-    “You can reach our IT support team.  
+    “You can reach our IT support team.
+    
     **Email us at:** admin@M365x09815490.onmicrosoft.com”
 
 ![A screenshot of a computer AI-generated content may be
@@ -710,6 +716,8 @@ user experience.
 
 3. Techniques to update fallback responses for better handling of
 unsupported queries.
+
+4. Escalation to human support added 
 
 # Exercise 4: Automating Support Ticket Creation with Power Automate
 
@@ -891,7 +899,7 @@ incorrect.](./media/image79.png)
 
 17.  Once the agent flow is published navigate to the agent flow overview page and click on Edit button to view the flow details
    
-18.  Then, change the flow name as  **ITLogTicket** on the
+18.  Then, change the flow name as  **LogITTicket** on the
     **Details** page and click **Save** and **Publish**
 
 **Note:** Update the other details such as : **primary owner,
@@ -916,7 +924,7 @@ incorrect.](./media/image84.png)
 
 ## Task 2: Run and test the flow 
 
-1.  Go to **Flows**, select **ITLogTicket** Overview page 🡪 click
+1.  Go to **Flows**, select **LogITTicket** Overview page 🡪 click
     **Run**
 
 ![A screenshot of a computer AI-generated content may be
@@ -938,11 +946,16 @@ incorrect.](./media/image86.png)
 ![A screen shot of a computer AI-generated content may be
 incorrect.](./media/image87.png)
 
-3.  Go to MIcrosoft Outlook  and sign in with the MOD Admin Id and verify the email triggered
+3.  Go to Microsoft Outlook and sign in with the MOD Admin credential and verify the email triggered
     after a successful run of ITLogTicket flow.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image88.png)
+
+4. Also, open the Dataverse table created in Power Apps and verify the input logged in Employee Technical Support Record table
+   
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/table.png)
 
 **Note:** your flow is now ready ran successfully.
 
@@ -1019,9 +1032,7 @@ incorrect.](./media/image104.png)
 
 3.  Plugin action integrated with Power Automate 
 
-4.  Escalation to human support added 
-
-5.  Final test demo completed 
+4.  Final test demo completed 
 
 ![Shape](./media/image3.png)
 
