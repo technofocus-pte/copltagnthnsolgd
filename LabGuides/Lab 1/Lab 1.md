@@ -84,9 +84,9 @@ agent to streamline IT workflows.
 1. Open Copilot Studio Home Page
    
    **Click or visit:**
-```
-https://copilotstudio.microsoft.com/environments/4a73a65a-10b9-e7a3-aceb-bb9044566c00/home
-```
+   ```
+   https://copilotstudio.microsoft.com/environments/4a73a65a-10b9-e7a3-aceb-bb9044566c00/home
+   ```
 2. **Sign In**
    
    Use your Microsoft admin credentials to log in securely.
@@ -99,19 +99,23 @@ incorrect.](./media/new1.png)
 
 4. Skip Configuration (if prompted)
    On the configuration screen, click Next and then Skip to proceed without custom setup.
+   
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/New2.png)
 
-7. Navigate to the Dev One Environment
+5. Navigate to the Dev One Environment
    Once logged in successfully, look at the top-right corner or the environment selector, and switch to the “Dev one” environment to start building or managing       your agents.
+   
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/new3.png)
 
-9.  Select **“Create”** 🡪 Choose **New Agent**.
+6.  Select **“Create”** 🡪 Choose **New Agent**.
+    
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image5.png)
 
-7.  From top right corner click on **Skip to configure** button.
+7.  From top right corner of the agent creation window, click on **Skip to configure**.
+
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
 
@@ -123,7 +127,7 @@ incorrect.](./media/image6.png)
     **Description:** Create an IT support agent that helps users reset
     passwords, request VPN access, and software installation
     
-    **Instruction:**
+    **Instructions:**
 
     1. Create the IT Support Copilot Agent
     
@@ -201,9 +205,7 @@ incorrect.](./media/image12.png)
 ![A screenshot of a sign in AI-generated content may be
 incorrect.](./media/image13.png)
 
-2.  Click Sign in and provide the Sign in details
-
-3.  Sign in **Powe Apps** **Dev One** environment using the same Microsft Admin credentials
+2.  click on **Sign in** to log in **Powe Apps** **Dev One** environment using the same Microsft Admin credentials
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
@@ -211,24 +213,24 @@ incorrect.](./media/image14.png)
 ## Task 2: Setting Up a Dataverse Table
 
 On the power apps home page, from top select the development
-environment. In our case its Dev One, participant can choose their own
+environment. In our case its Dev One (prefered), participant can choose their own
 environment.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image15.png)
 
-2.  From the left navigation bar select **Tables 🡪** click on the **+
+1.  From the left navigation bar select **Tables 🡪** click on the **+
 New table** menu and then select **Create new tables**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image16.png)
 
-3.  Select **Import an Excel file or CSV** option to import an Excel or CSV file from your local system.
+2.  Select **Import an Excel file or CSV** option to import an Excel or CSV file from your local system.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image17.png)
 
-4.  Click on the select form device option and select **Support
+3.  Click on the **Select form device** option and then select **Support
 Ticket** excel file from your local system and click **Import.**
 
 ![A screenshot of a computer AI-generated content may be
@@ -237,7 +239,7 @@ incorrect.](./media/image18.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image19.png)
 
-5. Select the uploaded table and click **View data** to update the table with columns with given column name and column type
+5. Select the uploaded table and click on **View data** option on top bar to update the table with columns with given column name and column type
 
 Column name: Employee ID
 
@@ -249,7 +251,7 @@ Type: Text
 
 Column Name: Email Address
 
-Type: Text
+Type: Email
 
 Column name: Technical Issue Description
 
@@ -273,7 +275,7 @@ line of Text -\> **Plain Text** and click on the **Update.**
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image22.png)
 
-7.  From top right side click on **Save and exit**to save the table.
+7.  From top right side click on **Save and exit** to save the table.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image23.png)
@@ -361,7 +363,7 @@ incorrect.](./media/image31.png)
 ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image32.png)
 
-3.  Navigate to Test agent on the right hand-side of the window and
+3.  click **Test** on the right hand-side of the topic creation window, and
     click refresh button to view the changes
 
 ![A screenshot of a computer AI-generated content may be
@@ -369,8 +371,8 @@ incorrect.](./media/image33.png)
 
 ## Task 3: Create **Reset Password** topic
 
-1.  Go to **Topics** in the top bar of agents overview page to create
-    topics for the agent
+1.  Go to **Topics** in the top bar of agents overview page to create the **Resset Password** 
+    topic for the agent
 
 2.  Click on **+ Add a topic** 🡪 select **Add from description with
     Copilot** and enter the following details and click **Create.**
@@ -426,6 +428,9 @@ incorrect.](./media/image40.png)
 
 2.  Enter the topic name: **Request VPN Access** and provide the
     description.
+
+    Name: Request VPN Access
+    Description: Help user to Request VPN Access
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image41.png)
@@ -502,6 +507,7 @@ incorrect.](./media/image45.png)
 incorrect.](./media/image46.png)
 
 8.  Add **End of conversation** node 🡪 click **Save**
+   click on **+** sign, select **Topic management** from the dropdown > click **Go to another topic** and select **End of converstaion** ndoe
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image47.png)
@@ -509,9 +515,9 @@ incorrect.](./media/image47.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image48.png)
 
-## Task 5: Create Install Software topic
+## Task 5: Create Install Software Topic
 
-1.  Go to Topics window 🡪 click **+ Add a topic** 🡪 select **Create from
+1.  Go to Topics window from agent's overview page 🡪 click **+ Add a topic** 🡪 select **Create from
     description with Copilot**
 
 ![A screenshot of a computer AI-generated content may be
@@ -542,9 +548,11 @@ incorrect.](./media/image51.png)
 3.  Now, click on **+ Add a node** to add a question node 🡪 enter the
     agent query :
 
-    “Choose the application you want to install”
+   **Question:** “Choose the application you want to install”
 
-    Add options:
+   **Identify as:** Multiple choice options
+
+    **Add options:**
     
     - Zoom
     
@@ -565,12 +573,12 @@ incorrect.](./media/image54.png)
 4.  Add a condition node to verify the user response for the given
     options
 
-5.  Click on **+ Add a node** 🡪 select **Add a condition**
+5.  Click on **+ Add a node** 🡪 select **Add a condition** from the dropdown 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image55.png)
 
-6.  Set the condition as: **Var 1 is equal to Power BI**
+6.  Set the condition as: **Var1 is equal to Power BI**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image56.png)
@@ -578,7 +586,7 @@ incorrect.](./media/image56.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image57.png)
 
-7.  Set another condition as **Var 1 is equal to Zoom**
+7.  Set another condition as **Var1 is equal to Zoom**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image58.png)
@@ -589,7 +597,7 @@ incorrect.](./media/image58.png)
 ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image59.png)
 
-9.  Go to **Topic management** 🡪 **Go to another topic** 🡪 and select
+9.  click on + sign to add a new node, go to **Topic management** 🡪 click **Go to another topic** 🡪 and select
     **Fallback**
 
 ![A screenshot of a computer AI-generated content may be
@@ -648,11 +656,9 @@ incorrect.](./media/image62.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image63.png)
 
-12. After all the necessary configurations, Add End of conversation over closing all the conditional nodes:
+12. After all the necessary configurations, add **End of conversation** over closing all the conditional nodes:
     
-   **To add End of conversation node**:
-   
-   click on **+** sign Add a node, select **Topic management** > select **Go to another topic** and, finally select **End of conversation** node 
+**To add End of conversation node**: click on **+** sign Add a node, select **Topic management** > select **Go to another topic** and, finally select **End of conversation** node 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image64.png)
