@@ -834,7 +834,7 @@ incorrect.](./media/image77.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/agent1.png)
 
-14. click on the **+ Add input** option in the parameters window and configure it for the given input values 
+14. click on the **+ Add input** option, select **Text** as the output type in the parameters window and configure it for the given input values 
     
    **Enter Name:** Confirmation Message
    
@@ -848,12 +848,14 @@ incorrect.](./media/agent2.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/agent3.png)
 
-15. Click on **Save draft** to svae all the action configurations done for the agent flow. 
+15. Click on **Save draft** and **Publish** to save all the action configurations done for the agent flow. 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image79.png)
 
-16. Select the flow created Rename the flow as **ITLogTicket** on the
+16.  Once the agent flow is published navigate to the agent flow overview page and click on Edit button to view the flow details
+   
+17.  Then, change the flow name as  **ITLogTicket** on the
     **Details** page and click **Save** and **Publish**
 
 **Note:** Update the other details such as : **primary owner,
@@ -868,7 +870,7 @@ incorrect.](./media/image81.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image82.png)
 
-17. From top bar right corner click **Publish.**
+18. After all the configurations are saved successfully, click on the **Publish** button from top right corner of the agent flow window.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image83.png)
