@@ -23,19 +23,11 @@ across the organization.
 
 - Build a Healthcare Compliance Agent using Copilot Studio. 
 
-&nbsp;
-
 - Provide knowledge-based HIPAA policy responses. 
-
-&nbsp;
 
 - Allow users to submit compliance reports. 
 
-&nbsp;
-
 - Save submissions securely in a SharePoint List  
-
-&nbsp;
 
 - Send an auto-confirmation email using Power
   Automate. ![Shape](./media/image3.png)
@@ -111,11 +103,11 @@ Set up a new agent using Microsoft Copilot Studio. Configure essential
 details like name and purpose. This forms the base for your HIPAA
 assistant.
 
-1.  Go to [Copilot Studio](https://copilotstudio.microsoft.com/) and
+1.  Go to Copilot Studio and
     click **Create a new copilot**. 
-
-<https://copilotstudio.microsoft.com/environments/0fe56244-d1d7-efdc-9313-34edaf96940d/home>
-
+```
+https://copilotstudio.microsoft.com/environments/0fe56244-d1d7-efdc-9313-34edaf96940d/home
+```
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image5.png)
 
@@ -281,12 +273,14 @@ incorrect.](./media/image21.png)
 incorrect.](./media/image22.png)
 
 3.  Add a question node to collect the user input:
+   
+4.  Question node 1:
 
-> **Question: What is the report title?**
+  **Question: What is the report title?**
 
-**Identify**: **User’s entire response**
+  **Identify**: **User’s entire response**
 
-**Variable: repTitle**
+  **Variable: repTitle**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image23.png)
@@ -297,26 +291,27 @@ incorrect.](./media/image24.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image25.png)
 
-> **Note**: repeat the same process to add the following questions:
->
-> **Question: “Which month does the report cover?”**
->
-> **Identify: User’s entire response**
->
-> **Variable: month**
->
+5.  Question node 2:
+   
+  **Question: “Which month does the report cover?”**
+  
+  **Identify: User’s entire response**
+  
+  **Variable: month**
+  
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image23.png)
 >
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image26.png)
->
-> **Question: “Please enter a summary of the report”**
->
-> **Identify: User’s entire response**
->
-> **Variable:**
->
+> 
+6.  Question node 3:
+  **Question: “Please enter a summary of the report”**
+  
+  **Identify: User’s entire response**
+  
+  **Variable:**
+
 > ![](./media/image27.png)
 >
 > ![A screenshot of a computer AI-generated content may be
@@ -325,9 +320,9 @@ incorrect.](./media/image25.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image29.png)
 
-4.  Add a message node for agent response on all collected user input;
+7.  Add a message node for agent response on all collected user input;
 
-5.  Click on + sign, select **Send a message** to add a message node and
+8.  Click on + sign, select **Send a message** to add a message node and
     update the message
 
 > ![A screenshot of a computer AI-generated content may be
@@ -336,7 +331,7 @@ incorrect.](./media/image25.png)
 > **Message**: Your compliance report for the month of {x} month is
 > submitted successfully.
 
-6.  Test the Healthcare Compliance Agent for all above agent
+9.  Test the Healthcare Compliance Agent for all above agent
     configurations
 
 ![A screenshot of a computer AI-generated content may be
