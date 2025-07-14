@@ -227,8 +227,6 @@ Get started with setting up your SharePoint site for collaboration and
 information sharing. This guide also walks you through creating a
 SharePoint list to organize and manage your data efficiently.
 
-# Introduction
-
 ## Task 1: Logging into SharePoint
 
 1.  Open SharePoint site from More options on the top left corner of the
