@@ -5,7 +5,7 @@
 *Project Title: Healthcare Compliance Assistant Agent   
 Estimated Time: 2 to 2.5 hours   
 Platform: Microsoft Copilot Studio + Power Automate +
-SharePoint/OneDrive *
+SharePoint/OneDrive*
 
 # Introduction
 
