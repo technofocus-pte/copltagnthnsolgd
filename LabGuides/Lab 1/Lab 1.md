@@ -275,6 +275,8 @@ incorrect.](./media/image25.png)
 > **Name:** IT Support Desk
 >
 > Site Description (optional)
+>
+**Note:** IT Help Desk template is now named as **IT support Desk**. 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image26.png)
