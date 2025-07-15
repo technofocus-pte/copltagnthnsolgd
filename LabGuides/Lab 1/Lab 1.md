@@ -10,6 +10,7 @@ Automate*
 
 # Introduction
 
+
 ![A screenshot of a phone AI-generated content may be
 incorrect.](./media/image2.png)
 
