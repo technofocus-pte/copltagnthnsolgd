@@ -385,6 +385,8 @@ via email.
 1.  Go to **Contoso IT assistant** agent's overview page, naviagte
     to **Tools** section and click on the **+ Add tool.** button
 
+**Note:** If the task link doesn’t appear, sign in to the environment. Then, check the "On-premises" box and fill in the required details to continue.
+
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image40.png)
 
@@ -460,6 +462,8 @@ incorrect.](./media/image47.png)
 - It helps automate actions like sending notifications, updating
   records, or triggering approvals based on new entries.
 
+**Note:** If the SharePoint site link doesn’t appear, sign in to the environment. Then, check the "On-premises" box and fill in the required details to continue.
+
 4.  Search and select **Create item** trigger from **SharePoint**
     section
 
@@ -476,6 +480,9 @@ incorrect.](./media/image48.png)
 **Username: MOD Admin**
 
 **Password: type your password**
+
+**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
+In this guide, the MOD Admin account was used.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image49.png)
@@ -497,12 +504,12 @@ created.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image51.png)
 
-3.  Click on Advanced parameter and map the input value
+7.  Click on Advanced parameter and map the input value
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image52.png)
 
-4.  Click on thunderbolt icon to map the dynamic value to each input
+8.  Click on thunderbolt icon to map the dynamic value to each input
     parameter
 
 > **Title: /Name**
@@ -513,13 +520,16 @@ incorrect.](./media/image52.png)
 >
 > **Issue Type: /Details**
 
+**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
+In this guide , the MOD Admin account was used.
+
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image53.png)
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image54.png)
 
-7.  Add **Send an email (V2)** trigger
+9.  Add **Send an email (V2)** trigger
 
 - The **"Send an email (V2)"** action in Power Automate allows you to
   send a customized email using Outlook 365.
@@ -527,13 +537,13 @@ incorrect.](./media/image54.png)
 - You can specify the recipient, subject, body content, and even add
   dynamic content or attachments to automate communication.
 
-5.  Click on **+** sign and select **Send an email** option from
+10.  Click on **+** sign and select **Send an email** option from
     **Outlook** section
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image55.png)
 
-8.  To Configure **Send an email** trigger enter the below given detail
+11.  To Configure **Send an email** trigger enter the below given detail
     in the respected section:
 
 > **To:** Enter support engineer email (MOD Admin)
@@ -562,14 +572,14 @@ incorrect.](./media/image56.png)
 
 ![](./media/image57.png)
 
-14. Now, configure the **Respond to the agent** action sends data or a
+12. Now, configure the **Respond to the agent** action sends data or a
     confirmation message back to the agent. It lets the agent display a
     reply to the user after the flow completes.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image58.png)
 
-15. click on the **+ Add input** option, select **Text** as the output
+13. click on the **+ Add input** option, select **Text** as the output
     type in the parameters window and configure it for the given input
     values
 
@@ -585,7 +595,7 @@ incorrect.](./media/image59.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image60.png)
 
-9.  Click on **Save draft** and **publish** to save all the action
+14.  Click on **Save draft** and **publish** to save all the action
     configurations done for the agent flow.
 
 ## Task 2: Rename the flow 
@@ -913,6 +923,9 @@ incorrect.](./media/image85.png)
   be automatically triggered and sent to**
   <admin@M365x19277286.onmicrosoft.com>
 
+**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
+In this example, the MOD Admin account was used.
+
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image92.png)
 
@@ -1166,6 +1179,9 @@ incorrect.](./media/image111.png)
 - **After submitting all the required inputs, an email notification will
   be automatically triggered and sent to**
   <admin@M365x19277286.onmicrosoft.com>
+
+**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
+In this example, the MOD Admin account was used.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image112.png)
@@ -1485,6 +1501,9 @@ incorrect.](./media/image127.png)
 - After submitting all the required inputs, an email notification will
   be automatically triggered and sent to
   admin@M365x19277286.onmicrosoft.com
+  
+**Note:** Use your own account credentials (not the MOD Admin account) to proceed.
+In this example, the MOD Admin account was used.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image128.png)
@@ -1508,6 +1527,9 @@ incorrect.](./media/image129.png)
 >
 > **Trigger phrases: “speak to a person”, “this didn’t help”.**
 
+**Note:** Use your own account credentials (not the MOD Admin account) to proceed.
+In this example, the MOD Admin account was used.
+
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image130.png)
 
@@ -1527,6 +1549,9 @@ incorrect.](./media/image131.png)
 > **“You can reach our IT support team.**
 >
 > **Email us at: <admin@M365x09815490.onmicrosoft.com>”**
+
+**Note:** Use your own account credentials (not the MOD Admin account) to proceed.
+In this example, the MOD Admin account was used.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image132.png)
@@ -1656,6 +1681,9 @@ incorrect.](./media/image152.png)
 incorrect.](./media/image153.png)
 
 **MOD Admin Outlook email triggered**
+
+**Note:** Open Outlook with your own account credentials (not the MOD Admin account) to proceed.
+In this example, the MOD Admin account was used.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image154.png)
