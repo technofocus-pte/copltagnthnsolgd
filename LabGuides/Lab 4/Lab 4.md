@@ -1,3 +1,5 @@
+![link](./media/image1.png)
+
 # **Project 4: Travel Request and Policy Assistant** 
 
 *Screnario: Build Contoso Travel Assistant Travel Request and Policy
@@ -53,7 +55,7 @@ the enterprise.
 
 # Exercise 1: Enterprise Travel Site & Data List Configuration
 
-## In this section, you will set up the Enterprise Travel SharePoint site and configure the Travel Request data list. This setup enables the Travel Assistant agent to store and manage travel requests efficiently, allowing seamless integration with the automated approval process.
+In this section, you will set up the Enterprise Travel SharePoint site and configure the Travel Request data list. This setup enables the Travel Assistant agent to store and manage travel requests efficiently, allowing seamless integration with the automated approval process.
 
 ## Task 1: Create SharePoint Site
 
