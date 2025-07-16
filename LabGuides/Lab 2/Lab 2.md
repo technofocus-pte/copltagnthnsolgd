@@ -178,7 +178,11 @@ incorrect.](./media/image12.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image13.png)
 
-3.  Enable the file for Q&A. 
+3.  Enable the file for Q&A.
+  - Go to the Settings tab.
+  - Under the Files section, find your uploaded file.
+- Turn on the "Orchestration" toggle next to the file.
+   Save the settings.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
