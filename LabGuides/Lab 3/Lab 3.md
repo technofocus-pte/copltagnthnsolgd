@@ -149,6 +149,8 @@ and logic behind their functionality will remain consistent. The
 principles you learn in this lab can still be applied, even if the UI
 looks different in the future.
 
+# Step-by-Step Instructions
+
 # Exercise 1: Signup and Build a Copilot in Microsoft Copilot Studio with New AI Capabilities
 
 In this exercise, you will learn how to build and configure a copilot in
