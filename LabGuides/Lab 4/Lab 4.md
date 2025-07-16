@@ -1,4 +1,4 @@
-![link](./media/image1.png)
+![link](./media/cover.png)
 
 # **Project 4: Travel Request and Policy Assistant** 
 
