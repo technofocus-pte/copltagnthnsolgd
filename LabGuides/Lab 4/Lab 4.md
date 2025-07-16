@@ -56,7 +56,7 @@ the enterprise.
 ![A screenshot of a computer screen AI-generated content may be
 incorrect.](./media/arch.png)
 
-------------------------------------------------------------------------
+# Step-by-Step Instructions
 
 # Exercise 1: Enterprise Travel Site & Data List Configuration
 
