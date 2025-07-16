@@ -51,6 +51,11 @@ the enterprise.
 
 - Outlook or Teams access for approvals
 
+# Architecture Diagram
+
+![A screenshot of a computer screen AI-generated content may be
+incorrect.](./media/arch.png)
+
 ------------------------------------------------------------------------
 
 # Exercise 1: Enterprise Travel Site & Data List Configuration
