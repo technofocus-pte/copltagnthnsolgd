@@ -61,11 +61,11 @@ In this section, you will set up the Enterprise Travel SharePoint site and confi
 
 1.  Open your browser and go to: <https://www.office.com>
 
-  Copilot Studio:
-  <https://copilotstudio.microsoft.com/environments/0fe56244-d1d7-efdc-9313-34edaf96940d/home>
-  
-  SharePoint:
-  <https://m365x19277286.sharepoint.com/_layouts/15/sharepoint.aspx>
+    Copilot Studio:
+    <https://copilotstudio.microsoft.com/environments/0fe56244-d1d7-efdc-9313-34edaf96940d/home>
+    
+    SharePoint:
+    <https://m365x19277286.sharepoint.com/_layouts/15/sharepoint.aspx>
 
 ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image3.png)
