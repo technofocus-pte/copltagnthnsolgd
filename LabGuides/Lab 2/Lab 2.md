@@ -179,10 +179,10 @@ incorrect.](./media/image12.png)
 incorrect.](./media/image13.png)
 
 3.  Enable the file for Q&A.
-  - Go to the Settings tab.
-  - Under the Files section, find your uploaded file.
-- Turn on the "Orchestration" toggle next to the file.
-   Save the settings.
+  - Go to the **Settings** tab from top right corner of the window
+  - Under the Files section, find your uploaded file
+  - Turn on the "Orchestration" toggle next to the file
+  - Save the settings.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
@@ -208,7 +208,7 @@ Modify the agent’s welcome message and initial response flow. Tailor
 greetings and guide users to report compliance issues. Enhance the
 user’s first interaction with the assistant.
 
-1.  Navigate to **Topics \>** click **+ Add a topic**
+1.  Navigate to **Topics** section of agent overview page
 
 2.  Select **Conversation start topic** listed under **System** tab
 
@@ -252,23 +252,23 @@ incorrect.](./media/image20.png)
 Create a topic that helps a hospital employee submit a monthly
 compliance report
 
-I want to submit a compliance report"
-
-"Create a new compliance entry"
-
-"Log a monthly report"
-
-“What is HIPAA?"
-
-"Explain HIPAA rules"
-
-"What are HIPAA compliance guidelines?"
-
-"How do I stay HIPAA compliant?"
-
-"Tell me about HIPAA regulations"
-
-"HIPAA privacy rules"
+  "I want to submit a compliance report"
+  
+  "Create a new compliance entry"
+  
+  "Log a monthly report"
+  
+  “What is HIPAA?"
+  
+  "Explain HIPAA rules"
+  
+  "What are HIPAA compliance guidelines?"
+  
+  "How do I stay HIPAA compliant?"
+  
+  "Tell me about HIPAA regulations"
+  
+  "HIPAA privacy rules"
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image21.png)
@@ -310,6 +310,7 @@ incorrect.](./media/image25.png)
 > incorrect.](./media/image26.png)
 > 
 6.  Question node 3:
+   
   **Question: “Please enter a summary of the report”**
   
   **Identify: User’s entire response**
@@ -332,7 +333,7 @@ incorrect.](./media/image25.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image30.png)
 >
-> **Message**: Your compliance report for the month of {x} month is
+> **Message**: Your compliance report for the month of **{x} month|string** (custom variable) is
 > submitted successfully.
 
 9.  Test the Healthcare Compliance Agent for all above agent
