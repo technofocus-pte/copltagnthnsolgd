@@ -127,7 +127,7 @@ incorrect.](./media/image6.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
-7.  Select **“Create”** 🡪 Choose **New Agent**.
+6.  Select **“Create”** 🡪 Choose **New Agent**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image8.png)
@@ -435,7 +435,7 @@ incorrect.](./media/image45.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image46.png)
 
-6.   With same procedure create more input as per given details. **Input
+7.   With same procedure create more input as per given details. **Input
     parameter:** 
 
 > Input type: Name  
@@ -453,7 +453,7 @@ incorrect.](./media/image46.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image47.png)
 
-3.  **Add SharePoint Create item trigger**
+8.  **Add SharePoint Create item trigger**
 
 - The **SharePoint "Create item" trigger** is used in Power Automate to
   initiate a flow whenever a new item is added to a specific SharePoint
@@ -464,13 +464,13 @@ incorrect.](./media/image47.png)
 
 **Note:** If the SharePoint site link doesn’t appear, sign in to the environment. Then, check the "On-premises" box and fill in the required details to continue.
 
-4.  Search and select **Create item** trigger from **SharePoint**
+9.  Search and select **Create item** trigger from **SharePoint**
     section
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image48.png)
 
-5.  Click on **Create item** trigger added, configure the **Create
+10.  Click on **Create item** trigger added, configure the **Create
     connection parameters** and click **Create new**
 
 **Connection name: MOD Administrator**
@@ -487,7 +487,7 @@ In this guide, the MOD Admin account was used.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image49.png)
 
-6.  **Configure Create item trigger**
+11.  **Configure Create item trigger**
 
 - Set up following parameters on the Create item parameters window:
 
@@ -504,12 +504,12 @@ created.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image51.png)
 
-7.  Click on Advanced parameter and map the input value
+12.  Click on Advanced parameter and map the input value
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image52.png)
 
-8.  Click on thunderbolt icon to map the dynamic value to each input
+13.  Click on thunderbolt icon to map the dynamic value to each input
     parameter
 
 > **Title: /Name**
@@ -529,7 +529,7 @@ incorrect.](./media/image53.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image54.png)
 
-9.  Add **Send an email (V2)** trigger
+14.  Add **Send an email (V2)** trigger
 
 - The **"Send an email (V2)"** action in Power Automate allows you to
   send a customized email using Outlook 365.
@@ -537,13 +537,13 @@ incorrect.](./media/image54.png)
 - You can specify the recipient, subject, body content, and even add
   dynamic content or attachments to automate communication.
 
-10.  Click on **+** sign and select **Send an email** option from
+15.  Click on **+** sign and select **Send an email** option from
     **Outlook** section
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image55.png)
 
-11.  To Configure **Send an email** trigger enter the below given detail
+16.  To Configure **Send an email** trigger enter the below given detail
     in the respected section:
 
 > **To:** Enter support engineer email (MOD Admin)
@@ -572,14 +572,14 @@ incorrect.](./media/image56.png)
 
 ![](./media/image57.png)
 
-12. Now, configure the **Respond to the agent** action sends data or a
+17. Now, configure the **Respond to the agent** action sends data or a
     confirmation message back to the agent. It lets the agent display a
     reply to the user after the flow completes.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image58.png)
 
-13. click on the **+ Add input** option, select **Text** as the output
+18. click on the **+ Add input** option, select **Text** as the output
     type in the parameters window and configure it for the given input
     values
 
@@ -595,7 +595,7 @@ incorrect.](./media/image59.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image60.png)
 
-14.  Click on **Save draft** and **publish** to save all the action
+19.  Click on **Save draft** and **publish** to save all the action
     configurations done for the agent flow.
 
 ## Task 2: Rename the flow 
@@ -803,9 +803,9 @@ Password” topic.
 This allows the agent to capture user details and automatically log a
 support ticket for password-related issues
 
-15. Add ITlogTicket flow after issueType question node
+1. Add ITlogTicket flow after issueType question node
 
-16. Click on + sign, navigate to Add a tool option and select the agent
+2. Click on + sign, navigate to Add a tool option and select the agent
     flow ITlogTicket
 
 ![A screenshot of a computer AI-generated content may be
@@ -814,12 +814,12 @@ incorrect.](./media/image78.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image79.png)
 
-17. To configure the ITLogTicket agent flow in the “Reset Password”
+3. To configure the ITLogTicket agent flow in the “Reset Password”
     topic, map each input variable to the corresponding question by
     assigning the agent’s custom variables to the Power Automate flow
     input parameters.
 
-18. To map the variable click on “…” dots of Enter or select a value
+4. To map the variable click on “…” dots of Enter or select a value
     input box and select the appropriate variable
 
 Name: empName
@@ -836,15 +836,15 @@ incorrect.](./media/image80.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image81.png)
 
-19. Now, add a message node for agent response
+5. Now, add a message node for agent response
 
-20. Click on **+** sign, select **Send a message** option to add a
+6. Click on **+** sign, select **Send a message** option to add a
     **message node**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image82.png)
 
-21. Configure the message node by providing the instructions to reset
+7. Configure the message node by providing the instructions to reset
     password issue, enter the following instructions in the message box
 
 **Message:**
@@ -864,17 +864,17 @@ Follow the instructions in the email to reset your password.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image83.png)
 
-22. Finally, after configuring all the agent input and output nodes add
+8. Finally, after configuring all the agent input and output nodes add
     End of conversation node to the topic
 
-23. To add End of conversation node, click on + sign (add a node) icon,
+9. To add End of conversation node, click on + sign (add a node) icon,
     go to **Topic** management \> select **Go to another topic** and
     click on **End of Conversation**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image84.png)
 
-24. Click **Save** on top right corner of the Reset password
+10. Click **Save** on top right corner of the Reset password
     configuration window to save all the configurations to Reset
     password topic
 
@@ -883,10 +883,10 @@ incorrect.](./media/image85.png)
 
 ### Task 2.2: Test your Reset Password Topic
 
-25. Before testing, ensure all required connections are properly
+11. Before testing, ensure all required connections are properly
     configured.
 
-26. In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
+12. In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
     connections**, then click **Connect** for SharePoint, finally click
     **Submit** to establish the connections.
 
@@ -899,7 +899,7 @@ incorrect.](./media/image85.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image88.png)
 
-27. Similarly, In **Manage your connections window,** click **Connect**
+13. Similarly, In **Manage your connections window,** click **Connect**
     for **LogITTicket**, and finally click **Submit** to establish the
     connections.
 
@@ -909,7 +909,7 @@ incorrect.](./media/image85.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image90.png)
 
-28. Navigate to **Test your agent** section and test the topic providing
+14. Navigate to **Test your agent** section and test the topic providing
     the reset password trigger phrase and enter all the input details
     and verify the email trigger and input details logged successfully
     into the IT Support Request list
@@ -950,13 +950,13 @@ incorrect.](./media/image94.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image95.png)
 
-3.  Now to collect the necessary user information, add question nodes to
+2.  Now to collect the necessary user information, add question nodes to
     the topic.
 
-4.  Click on + sign to add a new node, select Ask a question option to
+3.  Click on + sign to add a new node, select Ask a question option to
     add the question node
 
-5.  To configure the question node, click inside the “Enter a message”
+4.  To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -976,13 +976,13 @@ incorrect.](./media/image97.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image98.png)
 
-3.  Again click on + sign , select Add a question to add new question
+5.  Again click on + sign , select Add a question to add new question
     node
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image96.png)
 
-4.  To configure the question node, click inside the “Enter a message”
+6.  To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -999,10 +999,10 @@ incorrect.](./media/image99.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image100.png)
 
-5.  Again click on + sign , select Add a question to add new question
+7.  Again click on + sign , select Add a question to add new question
     node
 
-6.  To configure the question node, click inside the “Enter a message”
+8.  To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -1016,10 +1016,10 @@ incorrect.](./media/image100.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image101.png)
 
-3.  Again click on + sign , select Add a question to add new question
+9.  Again click on + sign , select Add a question to add new question
     node
 
-4.  To configure the question node, click inside the “Enter a message”
+10.  To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -1048,9 +1048,9 @@ Access” topic.
 This allows the agent to capture user details and automatically log a
 support ticket for password-related issues
 
-5.  Add ITlogTicket flow after issueType question node
+11.  Add ITlogTicket flow after issueType question node
 
-6.  Click on + sign, navigate to **Add a tool** option and select the
+12.  Click on + sign, navigate to **Add a tool** option and select the
     agent flow ITlogTicket
 
 ![A screenshot of a computer AI-generated content may be
@@ -1059,12 +1059,12 @@ incorrect.](./media/image104.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image105.png)
 
-7.  To configure the ITLogTicket agent flow in the “Request VPN Access”
+13.  To configure the ITLogTicket agent flow in the “Request VPN Access”
     topic, map each input variable to the corresponding question by
     assigning the agent’s custom variables to the Power Automate flow
     input parameters.
 
-8.  To map the variable, click on “…” dots of Enter or select a value
+14.  To map the variable, click on “…” dots of Enter or select a value
     input box and select the appropriate variable
 
 > **Name: empName**
@@ -1081,7 +1081,7 @@ incorrect.](./media/image106.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image107.png)
 
-9.  Finally, add a message node send user agent response
+15.  Finally, add a message node send user agent response
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image108.png)
@@ -1125,10 +1125,10 @@ IT support for further assistance.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image109.png)
 
-3.  Add **End of conversation** node and click **Save** to save all the
+16.  Add **End of conversation** node and click **Save** to save all the
     configuration to Request VPN Access topic
 
-4.  Click on **+** sign, select **Topic management** from the dropdown
+17.  Click on **+** sign, select **Topic management** from the dropdown
     \> click **Go to another topic** and select **End of
     converstaion** ndoe
 
@@ -1140,10 +1140,10 @@ incorrect.](./media/image111.png)
 
 ### Task 3.2: Test your Request VPN Access Topic 
 
-5.  Before testing, ensure all required connections are properly
+18.  Before testing, ensure all required connections are properly
     configured.
 
-6.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
+19.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
     connections**, then click **Connect** for SharePoint, finally click
     **Submit** to establish the connections.
 
@@ -1156,7 +1156,7 @@ incorrect.](./media/image111.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image88.png)
 
-7.  Similarly, In **Manage your connections window,** click **Connect**
+20.  Similarly, In **Manage your connections window,** click **Connect**
     for **LogITTicket**, and finally click **Submit** to establish the
     connections.
 
@@ -1166,7 +1166,7 @@ incorrect.](./media/image111.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image90.png)
 
-8.  Navigate to **Test your agent** section and test the topic providing
+21.  Navigate to **Test your agent** section and test the topic providing
     the reset password trigger phrase and enter all the input details
     and verify the email trigger and input details logged successfully
     into the IT Support Request list
@@ -1194,13 +1194,13 @@ incorrect.](./media/image113.png)
 
 ## Task 4: Crete Install Software Topic
 
-9.  Go to **Topics** window from agent's overview page \> click **+ Add
+1.  Go to **Topics** window from agent's overview page \> click **+ Add
     a topic** \> select **From blank**
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image94.png)
 
-10. Enter the following details, and click Create
+2. Enter the following details, and click Create
 
 > **Name your topic: Install Software**
 >
@@ -1213,15 +1213,13 @@ BI applications.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image114.png)
 
-11. Now to collect the necessary user information, add question nodes to
+3. Now to collect the necessary user information, add question nodes to
     the topic.
 
-12. Click on + sign to add a new node, select Ask a question option to
+4. Click on + sign to add a new node, select Ask a question option to
     add the question node
 
-&nbsp;
-
-6.  To configure the question node, click inside the “Enter a message”
+5.  To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -1241,13 +1239,13 @@ incorrect.](./media/image97.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image98.png)
 
-7.  Again click on + sign , select Add a question to add new question
+6.  Again click on + sign , select Add a question to add new question
     node
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image96.png)
 
-8.  To configure the question node, click inside the “Enter a message”
+7.  To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -1264,10 +1262,10 @@ incorrect.](./media/image99.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image100.png)
 
-9.  Again click on + sign , select Add a question to add new question
+8.  Again click on + sign , select Add a question to add new question
     node
 
-10. To configure the question node, click inside the “Enter a message”
+9. To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -1286,7 +1284,7 @@ incorrect.](./media/image101.png)
 
 &nbsp;
 
-13. To configure the question node, click inside the “Enter a message”
+11. To configure the question node, click inside the “Enter a message”
     box to add the agent’s question, then click “Identify” to choose the
     appropriate input type, and finally set the variable name for
     storing the user’s response.
@@ -1314,9 +1312,9 @@ Software” topic.
 This allows the agent to capture user details and automatically log a
 support ticket for password-related issues
 
-3.  Add ITlogTicket flow after issueType question node
+12.  Add ITlogTicket flow after issueType question node
 
-4.  Click on + sign, navigate to **Add a tool** option and select the
+13.  Click on + sign, navigate to **Add a tool** option and select the
     agent flow ITlogTicket
 
 ![A screenshot of a computer AI-generated content may be
@@ -1325,12 +1323,12 @@ incorrect.](./media/image104.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image105.png)
 
-5.  To configure the ITLogTicket agent flow in the “Install Software”
+14.  To configure the ITLogTicket agent flow in the “Install Software”
     topic, map each input variable to the corresponding question by
     assigning the agent’s custom variables to the Power Automate flow
     input parameters.
 
-6.  To map the variable, click on “…” dots of Enter or select a value
+15.  To map the variable, click on “…” dots of Enter or select a value
     input box and select the appropriate variable
 
 > **Name: empName**
@@ -1347,10 +1345,10 @@ incorrect.](./media/image106.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image107.png)
 
-4.  dd a condition node to verify the user response for the given
+16.  dd a condition node to verify the user response for the given
     options
 
-5.  Click on **+ Add a node** 🡪 select **Add a condition** from the
+17.  Click on **+ Add a node** 🡪 select **Add a condition** from the
     dropdown
 
 ![A screenshot of a computer AI-generated content may be
@@ -1360,13 +1358,13 @@ incorrect.](./media/image117.png)
 
 - Set condition2 as issueType is equal to Install Zoom
 
-8.  If both conditions are not satisfied, then add
+18.  If both conditions are not satisfied, then add
     the **Fallback** response for all other conditions
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image118.png)
 
-9.  click on + sign to add a new node, go to **Topic management** 🡪
+19.  click on + sign to add a new node, go to **Topic management** 🡪
     click **Go to another topic** 🡪 and select **Fallback**
 
 ![A screenshot of a computer AI-generated content may be
@@ -1375,7 +1373,7 @@ incorrect.](./media/image119.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image120.png)
 
-10. Configure the **Condition 1: issueType is equal to Power BI** node:
+20. Configure the **Condition 1: issueType is equal to Power BI** node:
 
 Click on **+** add a new node sign, select **Send a message** option to
 add message node and enter the sgent repsonse in the message node as:
@@ -1400,7 +1398,7 @@ Once the .msi installer downloads, double-click it.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image122.png)
 
-11. Similarly, add a message node after **Condition 2: issueType is
+21. Similarly, add a message node after **Condition 2: issueType is
     equal to Zoom** and enter the agent response to install Zoom app
 
 **Message:** Steps to install Zoom
@@ -1444,10 +1442,10 @@ incorrect.](./media/image123.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image124.png)
 
-3.  After all the necessary configurations, add **End of
+22.  After all the necessary configurations, add **End of
     conversation** over closing all the conditional nodes:
 
-4.  **To add End of conversation node**: click on **+** sign Add a node,
+23.  **To add End of conversation node**: click on **+** sign Add a node,
     select **Topic management** \> select **Go to another topic** and,
     finally select **End of conversation** node
 
@@ -1457,15 +1455,15 @@ incorrect.](./media/image125.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image126.png)
 
-5.  click on **Save** button to save the configuration for **Install
+24.  click on **Save** button to save the configuration for **Install
     Softwrae** topic
 
 ### Task 4.2: Test your Install Software Topic
 
-6.  Before testing, ensure all required connections are properly
+1.  Before testing, ensure all required connections are properly
     configured.
 
-7.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
+2.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
     connections**, then click **Connect** for SharePoint, finally click
     **Submit** to establish the connections.
 
@@ -1565,12 +1563,12 @@ the final test for the all the configurations done so far
 
 ## Task 1: Final Agent Validation
 
-5.  Use the **Test bot** in Copilot Studio to simulate sample flows. 
+1.  Use the **Test bot** in Copilot Studio to simulate sample flows. 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image133.png)
 
-6.  Try testing with the Trigger phrase **Reset password**, verify the
+2.  Try testing with the Trigger phrase **Reset password**, verify the
     response and check the MOD Admin account for email triggered and IT
     Support Requests SharePoint list updated with the new input
 
@@ -1580,7 +1578,7 @@ incorrect.](./media/image133.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image135.png)
 
-7.  Now try testing with another pharse **Request VPN Access**, verify
+3.  Now try testing with another pharse **Request VPN Access**, verify
     the response and check the MOD Admin account for email triggered and
     IT Support Requests SharePoint list updated with the new input
 
@@ -1593,9 +1591,9 @@ incorrect.](./media/image137.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image138.png)
 
-8.  Also test for **Install Software** phrase and verify the response.
+4.  Also test for **Install Software** phrase and verify the response.
 
-9.  Click **Publish**, then click **Share to Microsoft Teams** to make
+5.  Click **Publish**, then click **Share to Microsoft Teams** to make
     the agent accessible in a public Teams channel.
 
 ![A screenshot of a computer AI-generated content may be
@@ -1609,26 +1607,26 @@ incorrect.](./media/image140.png)
 After successful agent validation deploy the agent Contoso IT Assistant
 to Teams application
 
-10. Click **Publish** to publish the agent, if it hasn’t been published
+1. Click **Publish** to publish the agent, if it hasn’t been published
     already.
 
-11. Navigate to the **Channels** tab on the top bar and select
+2. Navigate to the **Channels** tab on the top bar and select
     **Microsoft Teams** from the list of available channels.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image141.png)
 
-12. Click on Add channel in Agent preview window
+3. Click on Add channel in Agent preview window
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image142.png)
 
-13. Select See agent in teams on Teams and Microsoft 365 Copilot page
+4. Select See agent in teams on Teams and Microsoft 365 Copilot page
 
 ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image143.png)
 
-14. Select **"Use the web app instead"**, then click the **Add** or
+5. Select **"Use the web app instead"**, then click the **Add** or
     **Update** button to add the agent to your Microsoft Teams
     application.
 
@@ -1638,7 +1636,7 @@ incorrect.](./media/image144.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image145.png)
 
-15. In your Teams web app, if the **Contoso IT Assistant** isn’t
+6. In your Teams web app, if the **Contoso IT Assistant** isn’t
     visible:
 
 - Use the **search bar at the top** to search for *Contoso IT Assistant*
@@ -1654,7 +1652,7 @@ incorrect.](./media/image146.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image147.png)
 
-16. Perform agent interaction using Reset password, Install software,
+7. Perform agent interaction using Reset password, Install software,
     and Request VPN Access triggers and verify the response
 
 ![A screenshot of a computer AI-generated content may be
@@ -1669,7 +1667,7 @@ incorrect.](./media/image150.png)
 ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image151.png)
 
-17. **Connect to continue:**  
+8. **Connect to continue:**  
     Click the **Allow** button to let Microsoft Teams use your
     credentials to connect and retrieve the necessary information for
     the agent.
@@ -1739,7 +1737,7 @@ Example:
 - “When a Power Virtual Agents (Copilot Studio) topic sends a request to
   Power Automate.”
 
-2.**Tool** : A tool in Microsoft Copilot Studio refers to external
+2.  **Tool** : A tool in Microsoft Copilot Studio refers to external
 integrations or flows added to an agent topic. These are typically Power
 Automate flows that the agent can invoke to perform backend operations
 like sending an approval email or logging data to SharePoint.
