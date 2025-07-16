@@ -106,15 +106,14 @@ Use your Microsoft admin credentials to log in securely.
 
 3.  **Select Region**
 
-> When prompted, choose United States as your region, then click Next. 
+    > When prompted, choose United States as your region, then click Next. 
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image5.png)
 
-4.  Skip Configuration (if prompted) On the configuration screen, click
-    Next and then Skip to proceed without custom setup.
+4.  Skip Configuration (if prompted) On the configuration screen, click Next and then Skip to proceed without custom setup.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
 
 5.  Navigate to the Dev One Environment Once logged in successfully,
@@ -122,50 +121,45 @@ incorrect.](./media/image6.png)
     to the “Dev one” environment to start building or managing your
     agents.
     
-**Note:** Using the Dev One environment is recommended, but users may proceed with the Default environment if needed. 
+    > **Note:** Using the Dev One environment is recommended, but users may proceed with the Default environment if needed. 
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
 6.  Select **“Create”** 🡪 Choose **New Agent**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image8.png)
 
-7.  From top right corner of the agent creation window, click on **Skip
-    to configure**.
+7.  From top right corner of the agent creation window, click on **Skip to configure**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image9.png)
 
-8.  Enter **Name, Description and Instruction** of the agent as give
-    below and click on **Create** button.
+8.  Enter **Name, Description and Instruction** of the agent as give below and click on **Create** button.
 
-**Name:** Contoso IT Assistant
+    - **Name:** Contoso IT Assistant
 
-**Description:** Create an IT support agent that helps users reset
-passwords, request VPN access, and software installation
+    - **Description:** Create an IT support agent that helps users reset passwords, request VPN access, and software installation
 
-**Instructions:**
+    - **Instructions:**
 
-1.  Create the IT Support Copilot Agent
+        1.  Create the IT Support Copilot Agent
 
-2.  Create Topics for Common IT Issues: Password Reset, Request VPN
-    Access, Install Software
+        2.  Create Topics for Common IT Issues: Password Reset, Request VPN
+            Access, Install Software
 
-3.  Add Ticket Logging via Power Automate
+        3.  Add Ticket Logging via Power Automate
 
-4.  Add Plugin in Copilot Studio
+        4.  Add Plugin in Copilot Studio
 
-5.  Test the Agent
+        5.  Test the Agent
 
-6.  Publish and Deploy
+        6.  Publish and Deploy
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image10.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
 
-9.  Do the following Agent settings: On overview page of **Contoso IT
-    Assistant**
+9.  Do the following Agent settings: On overview page of **Contoso IT Assistant**
 
     - **Enable:** the orchestrator for the agent.
 
@@ -174,55 +168,54 @@ incorrect.](./media/image10.png)
 
 10. After making all necessary settings, click **Save**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image11.png)
+
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image12.png)
 
 11. From top right corner of the agent, click on
     the **Settings** button.
-
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image12.png)
 
 12. Go to Generative AI section, select the Generative AI (Preview), set
     content moderation as **Medium** and click on **Save** to save the
     setting.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image13.png)
 
-**Conclusion**
+    - **Conclusion**
 
-By completing this exercise, participants will learn:
+        By completing this exercise, participants will learn:
 
-1.  How to access and set up Microsoft Copilot Studio.
+        1.  How to access and set up Microsoft Copilot Studio.
 
-2.  Steps to create and configure a custom Copilot agent.
+        2.  Steps to create and configure a custom Copilot agent.
 
-3.  Practical skills in enabling generative AI and orchestrator settings
+        3.  Practical skills in enabling generative AI and orchestrator settings
 
-**Note:** The agent is now named "Contoso IT Assistant" and is set up to
+        > **Note:** The agent is now named "Contoso IT Assistant" and is set up to
 help users with password resets, VPN access requests, and software
 installations.
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
 
 ## Task 2: Add Knowledge Base to the Agent
 
-1.  On Contoso agent overview page, scroll down and click on + Add
-    Knowledge button.
+1.  On Contoso agent overview page, scroll down and click on + Add Knowledge button.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image15.png)
 
 2.  Select Click to browse button to add the lab file Contoso IT Support
-    Issue from your local system and then click on Add to save the file.
+    Issue from your local system and then click on Add to agent to save the file.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image16.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image16.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image17.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/add-01.png)
 
 # Exercise 2: Getting Started with SharePoint Site
 
@@ -235,66 +228,66 @@ SharePoint list to organize and manage your data efficiently.
 1.  Open SharePoint site from More options on the top left corner of the
     Copilot Studio page
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image18.png)
 
 2.  Enter your Microsoft Admin credentials and click on Sign in
 
-![A screenshot of a login screen AI-generated content may be
+    ![A screenshot of a login screen AI-generated content may be
 incorrect.](./media/image19.png)
 
 3.  Click Yes on stay signed in page
 
-![A screenshot of a computer screen AI-generated content may be
+    ![A screenshot of a computer screen AI-generated content may be
 incorrect.](./media/image20.png)
 
 4.  Click on x icon to close the window
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image21.png)
 
 5.  Click on create site button on the top left corner of the home page,
     and select the **Team** site
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image22.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image22.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image23.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image23.png)
 
-6.  Select the **IT Help Desk** template for your team site
+6.  Select the **IT help Desk** template for your team site
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image24.png)
 
 7.  Click **Use template on Preview** and use **'IT help desk'**
     template window
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image25.png)
 
 8.  Enter the required details and click next
 
-> **Name:** IT Support Desk
->
-> Site Description (optional)
->
-**Note:** IT Help Desk template is now named as **IT support Desk**. 
+    - **Name:** IT Support Desk
 
-![A screenshot of a computer AI-generated content may be
+    - Site Description (optional)
+
+        > **Note:** IT Help Desk template is now named as **IT support Desk**. 
+
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image26.png)
 
 9.  Make the site **Public**, and select **English** language \> click
     **Create site**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image27.png)
 
-**Note**: Applying template may take some time.
+    > **Note**: Applying template may take some time.
 
 10. Click finish, adding members is optional.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image28.png)
 
 ## Task 2: Create SharePoint Site List
@@ -302,74 +295,74 @@ incorrect.](./media/image28.png)
 1.  From SharePoint site home page, click on **+ New**, select **List**
     option from the drop down
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image29.png)
 
 2.  Create a new list from blank and configure by adding the columns to
     the list
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image30.png)
 
 3.  Provide a name for the list:
 
-**List name: IT Support Requests**
+    **List name: IT Support Requests**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image31.png)
 
 ## Task 3: Configure IT Support Requests List
 
 1.  Rename Title column as: **Employee Name**
 
-- Click on **Title** drop down arrow, navigate to **Column settings** \>
+    - Click on **Title** drop down arrow, navigate to **Column settings** \>
   select **Rename**
 
-- Change the column name and click **Save**
+    - Change the column name and click **Save**
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image32.png)
 
 2.  Add Employee ID column: and click **Save**
 
-- Click on **+ Add column,** select **Text** type, enter the column name
-  and click save
+    - Click on **+ Add column,** select **Text** type, enter the column name
+    and click save
 
-- **Name**: Employee ID
+    - **Name**: Employee ID
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image33.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image33.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image34.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image34.png)
 
 3.  **Add Email Address column**
 
-- Click on + Add column, select Text click Next
+    - Click on + Add column, select Text click Next
 
-- Enter column Name: Email Address, click Save
+    - Enter column Name: Email Address, click Save
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image35.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image35.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image36.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image36.png)
 
 4.  **Add Issue type column**:
 
-- Click on + Add column, select Multiple lines of text \> click Next
+    - Click on + Add column, select Multiple lines of text \> click Next
 
-- Column Name: Issue Type and click Save
+    - Column Name: Issue Type and click Save
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image37.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image37.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image38.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image38.png)
 
 5.  Your SharePoint list with four columns is ready to use
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image39.png)
 
 # Exercise 3: Automating Support Ticket Creation with Power Automate
@@ -385,32 +378,32 @@ via email.
 1.  Go to **Contoso IT assistant** agent's overview page, naviagte
     to **Tools** section and click on the **+ Add tool.** button
 
-**Note:** If the task link doesn’t appear, sign in to the environment. Then, check the "On-premises" box and fill in the required details to continue.
+    > **Note:** If the task link doesn’t appear, sign in to the environment. Then, check the "On-premises" box and fill in the required details to continue.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image40.png)
 
 2.  In the **Add tool** window, navigate to the **Flows** tab and click
     on **+ New tool**. From the options, select **Agent flow**. The
     Power Automate flow configuration window will then open.
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](./media/image41.png)
+    ![A screenshot of a chat AI-generated content may be
+    incorrect.](./media/image41.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image42.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image42.png)
 
 3.  In Power automate flow, you will see the autogenerated **When an
     agent calls the flow** trigger.
 
-- When an agent calls a flow trigger collects the user input , it sends
+    - When an agent calls a flow trigger collects the user input , it sends
   the collected user inputs to a Power Automate flow. The flow then
   processes the data (e.g., saves it, sends emails) and can return a
   response to the agent.
 
 4.  Click on the trigger and configure the parameters:
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image43.png)
 
 5.  Click on **+ Add input** button from the parameters window
@@ -418,74 +411,52 @@ incorrect.](./media/image43.png)
 6.  Select **Text** as data type of input and rename the input as
     **Name**, follow the same and configure the remaining parameters:
 
-- Name: Text
+    - Name: Text
 
-- ID: Text
+    - ID: Text
 
-- Email: Text
+    - Email: Text
 
-- Details: details
+    - Details: Text
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image44.png)
+        ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image44.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image45.png)
+7. With same procedure create more input as per given details. **Input parameter:** 
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image46.png)
+    > Input type: Name  
+    > Date type: Text
+    >
+    > Input type: Email  
+    > Date type: Text
+    >
+    > Input type: ID  
+    > Date type: text
+    >
+    > Input type: Details  
+    > Date type: Text
 
-7.   With same procedure create more input as per given details. **Input
-    parameter:** 
-
-> Input type: Name  
-> Date type: Text
->
-> Input type: Email  
-> Date type: Text
->
-> Input type: ID  
-> Date type: text
->
-> Input type: Details  
-> Date type: Text
-
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image47.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image47.png)
 
 8.  **Add SharePoint Create item trigger**
 
-- The **SharePoint "Create item" trigger** is used in Power Automate to
-  initiate a flow whenever a new item is added to a specific SharePoint
-  list.
+    - The **SharePoint "Create item" trigger** is used in Power Automate to
+    initiate a flow whenever a new item is added to a specific SharePoint
+    list.
 
-- It helps automate actions like sending notifications, updating
-  records, or triggering approvals based on new entries.
+    - It helps automate actions like sending notifications, updating
+    records, or triggering approvals based on new entries.
 
-**Note:** If the SharePoint site link doesn’t appear, sign in to the environment. Then, check the "On-premises" box and fill in the required details to continue.
+        > **Note:** If the SharePoint site link doesn’t appear, sign in to the environment. Then, check the "On-premises" box and fill in the required details to continue.
 
 9.  Search and select **Create item** trigger from **SharePoint**
     section
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image48.png)
 
-10.  Click on **Create item** trigger added, configure the **Create
-    connection parameters** and click **Create new**
-
-**Connection name: MOD Administrator**
-
-**Authenticate type: Windows**
-
-**Username: MOD Admin**
-
-**Password: type your password**
-
-**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
-In this guide, the MOD Admin account was used.
-
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image49.png)
+10. Configure the connection and click Sign in. When prompted to select an account, select **<inject key="AzureAdUserEmail"></inject>**. 
 
 11.  **Configure Create item trigger**
 
@@ -495,38 +466,37 @@ incorrect.](./media/image49.png)
 
   2.  **List Name: IT Support Requests**
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image50.png)
 
-**Note**: Select the SharePoint site and SharePoint list that you have
+        > **Note**: Select the SharePoint site and SharePoint list that you have
 created.
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image51.png)
 
 12.  Click on Advanced parameter and map the input value
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image52.png)
+        ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/designer-01.png)
 
 13.  Click on thunderbolt icon to map the dynamic value to each input
     parameter
 
-> **Title: /Name**
->
-> **Employee ID: /ID**
->
-> **Email: /Email**
->
-> **Issue Type: /Details**
+        > **Title: /Name**
+        >
+        > **Employee ID: /ID**
+        >
+        > **Email Address: /Email Address**
+        >
+        > **Issue Type: /Details**
 
-**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
-In this guide , the MOD Admin account was used.
+        > **Note:** Sign in with your own account credentials to proceed.
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image53.png)
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image54.png)
 
 14.  Add **Send an email (V2)** trigger
@@ -540,159 +510,146 @@ incorrect.](./media/image54.png)
 15.  Click on **+** sign and select **Send an email** option from
     **Outlook** section
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image55.png)
 
 16.  To Configure **Send an email** trigger enter the below given detail
     in the respected section:
 
-> **To:** Enter support engineer email (MOD Admin)
->
-> **Subject:** New Technical Support Ticket Raised
->
-> **Body:** Dear HR,
->
-> A new technical support ticket has been raised and requires your
-> attention. Please find details below:
->
-> Employee Name: @{triggerBody()?\['text'\]}
->
-> Employee ID: @{triggerBody()?\['text_1'\]}
->
-> Technical Issue: @{triggerBody()?\['text_3'\]}
->
-> Thank you for your prompt attention to this matter.
->
-> Best Regards,
->
-> Contoso IT Support Team
+        > **To:** <inject key="AzureAdUserEmail"></inject>
+        >
+        > **Subject:** New Technical Support Ticket Raised
+        >
+        > **Body:** Dear HR,
+        >
+        > A new technical support ticket has been raised and requires your
+        > attention. Please find details below:
+        >
+        > Employee Name: @{triggerBody()?\['text'\]}
+        >
+        > Employee ID: @{triggerBody()?\['text_1'\]}
+        >
+        > Technical Issue: @{triggerBody()?\['text_3'\]}
+        >
+        > Thank you for your prompt attention to this matter.
+        >
+        > Best Regards,
+        >
+        > Contoso IT Support Team
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image56.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image56-01.png)
 
-![](./media/image57.png)
+        ![](./media/image57.png)
 
 17. Now, configure the **Respond to the agent** action sends data or a
     confirmation message back to the agent. It lets the agent display a
     reply to the user after the flow completes.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image58.png)
 
-18. click on the **+ Add input** option, select **Text** as the output
-    type in the parameters window and configure it for the given input
+18. click on the **+ Add an output** option, select **Text** as the output type in the parameters window and configure it for the given input
     values
 
-**Enter Name:** Confirmation Message
+    - **Enter Name:** Confirmation Message
 
-**Enter a Value:** Your travel request has been received. Thank you!
+    - **Enter a Value:** Your travel request has been received. Thank you!
 
-**Enter a Decsription:** Acknowledgement!
+    - **Enter a Decsription:** Acknowledgement!
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image59.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image59.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image60.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image60.png)
 
-19.  Click on **Save draft** and **publish** to save all the action
-    configurations done for the agent flow.
+19. Click on **Save draft** and **publish** to save all the action configurations done for the agent flow.
 
 ## Task 2: Rename the flow 
 
 Change the flow name from untitled to LogITTcicket
 
-1.Click on **Go back to Agent** on confirmation window
+1. Click on **Go back to Agent** on confirmation window
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image61.png)
 
-2.  Once the agent flow is published navigate to the agent flow overview
-    page and click on Edit button to view the flow details
+2.  Once the agent flow is published navigate to the agent flow overview page and click on Edit button to view the flow details
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image62.png)
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image56-02.png)
 
-3.  Then, change the flow name as LogITTicket on the Details page and
-    click Save and Publish
+3.  Then, change the flow name as LogITTicket on the Details page and click Save and Publish
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image63.png)
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image56-03.png)
 
-**Note**: Update the other details such as : primary owner, description
-and click Save.
+    > **Note**: Update the other details such as : primary owner, description and click Save.
 
-4.  Now you see that your agent flow **ITLogTicket** is successfully
-    renamed and added in **Contoso It Assistant’s** **Tools** section
+4.  Now you see that your agent flow **LogITTicket** is successfully renamed and added in **Contoso It Assistant’s** **Tools** section
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image64.png)
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image57-01.png)
 
 # Exercise 4: Design and Automate Agent Interactions
 
-**In this exercise, you will create conversational topics for your agent
-and connect them to Power Automate flows.** **This enables your agent to
-collect user input and trigger backend actions like data entry or
-notifications automatically.**
+**In this exercise, you will create conversational topics for your agent and connect them to Power Automate flows.** **This enables your agent to collect user input and trigger backend actions like data entry or notifications automatically.**
 
 ## Task 1: Customize the Conversation Start Topic
 
 1.  From the top bar option click on **Topics** and then click and
     open **Conversation Start** topic.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image65.png)
 
-2.  Scroll down and go to message node. Update the message after bot
-    name as given below:
+2.  Scroll down and go to message node. Update the message after bot name as given below:
 
-**Hello! I'm your virtual IT assistant.** I'm here to help you with the
-following common requests:
+    **Hello! I'm your virtual IT assistant.** I'm here to help you with the
+    following common requests:
 
-🔐 **Reset password**
+    🔐 **Reset password**
 
-🌐 **Request VPN access**
+    🌐 **Request VPN access**
 
-💻 **Install software**
+    💻 **Install software**
 
-Please choose an option to get started.
+    Please choose an option to get started.
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](./media/image66.png)
+    ![A screenshot of a chat AI-generated content may be
+    incorrect.](./media/image66.png)
 
-3.  click **Test** on the right hand-side of the topic creation window,
-    and click refresh button to view the changes
+3.  click **Test** on the right hand-side of the topic creation window, and click refresh button to view the changes. Select **Save**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image67.png)
 
 ## Task 2: Create Reset Password Topic
 
-4.  Go to **Topics** from Agent overview page, click **+ Add topics**
-    select **From blank**
+4. Navigate back to the the **Agents**, and select the agent that you created. Go to **Topics** from Agent overview page, click **+ Add topics** select **From blank**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image68.png)
 
-5.  Update the Topic name and describe what the topic does section, and
-    add trigger phrases for the topic
+5.  Update the Topic name and describe what the topic does section, and add trigger phrases for the topic
 
-- **Topic name**: Reset Password
+    - **Topic name**: Reset Password
 
-- **Describe what the topic does**: Collect user details and provide
-  instructions to reset password
+    - **Describe what the topic does**: Collect user details and provide
+    instructions to reset password
 
-- **Trigger Phrases**:
+    - **Phrases**:
 
-  - Reset password
+    - Reset password
 
-  - Forgot password
+    - Forgot password
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image69.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image69.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image70.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image70.png)
 
 6.  Now to collect the necessary user information, add question nodes to
     the topic.
@@ -700,33 +657,28 @@ incorrect.](./media/image70.png)
 7.  Click on + sign to add a new node, select Ask a question option to
     add the question node
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image71.png)
 
-8.  To configure the question node, click inside the “**Enter a
-    message**” box to add the agent’s question, then click
-    **“Identify**” to choose the appropriate input type, and finally set
-    the variable name for storing the user’s response.
+8.  To configure the question node, click inside the “**Enter a message**” box to add the agent’s question, then click **“Identify**” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-> **Question node 1: Enter employee name**
->
-> **Identify as: User’s entire response**
->
-> **Variable: empName**
+    > **Question node 1: Enter employee name**
+    >
+    > **Identify as: User’s entire response**
+    >
+    > **Variable: empName**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image72.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image72.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image73.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image73.png)
 
-**Note**: Once the variable name is set click on **X** icon to close the
-**Variable properties** window
+    > **Note**: Once the variable name is set click on **X** icon to close the **Variable properties** window
 
-9.  After employee name question node, click on +sign to add a new node
-    select Ask a question to add a question node
+9.  After employee name question node, click on +sign to add a new node select Ask a question to add a question node
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image74.png)
 
 10. To configure the question node, click inside the “Enter a message”
@@ -734,107 +686,92 @@ incorrect.](./media/image74.png)
     appropriate input type, and finally set the variable name for
     storing the user’s response.
 
-**Question: Enter your employee ID**
+    - **Question: Enter your employee ID**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: empID**
+    - **Variable: empID**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image75.png)
+        ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image75.png)
 
-**Note**: Once the variable name is set click on **X** icon to close the
-**Variable properties** window
+        > **Note**: Once the variable name is set click on **X** icon to close the
+    **Variable properties** window
 
-11. Similarly, create and configure a new question node after employee
-    ID node
+11. Similarly, create and configure a new question node after employee ID node
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image74.png)
 
-12. To configure the question node, click inside the “Enter a message”
-    box to add the agent’s question, then click “Identify” to choose the
-    appropriate input type, and finally set the variable name for
-    storing the user’s response.
+12. To configure the question node, click inside the “Enter a message” box to add the agent’s question, then click “Identify” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-**Question: Enter your email address**
+    - **Question: Enter your email address**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: email**
+    - **Variable: email**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image74.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image74.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image76.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image76.png)
 
 13. Similarly, create and configure a new question node after employee
     email address node
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image74.png)
 
-14. To configure the question node, click inside the “Enter a message”
-    box to add the agent’s question, then click “Identify” to choose the
-    appropriate input type, and finally set the variable name for
-    storing the user’s response.
+14. To configure the question node, click inside the “Enter a message” box to add the agent’s question, then click “Identify” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-> **Question: What's your issue? Please select one of the following
-> options**
+    > **Question: What's your issue? Please select one of the following
+    > options**
 
-- **Can’t login**
+    - **Can’t login**
 
-- **Forgot password**
+    - **Forgot password**
 
-- **Reset password**
+    - **Reset password**
 
-> **Identify as: User’s entire response**
->
-> **Variable: issueType**
+    > **Identify as: User’s entire response**
+    >
+    > **Variable: issueType**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image77.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image77.png)
 
 ### Task 2.1: Automate agent flow LogITTicket to create password topic 
 
-You can now integrate the ITLogTicket agent flow into the “Create
-Password” topic.  
-This allows the agent to capture user details and automatically log a
-support ticket for password-related issues
+You can now integrate the LogITTcicket agent flow into the “Create Password” topic. This allows the agent to capture user details and automatically log a support ticket for password-related issues
 
-1. Add ITlogTicket flow after issueType question node
+1. Add LogITTcicket flow after issueType question node
 
-2. Click on + sign, navigate to Add a tool option and select the agent
-    flow ITlogTicket
+2. Click on + sign, navigate to Add a tool option and select the agent flow LogITTcicket
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image78.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image78.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image79.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image79.png)
 
-3. To configure the ITLogTicket agent flow in the “Reset Password”
-    topic, map each input variable to the corresponding question by
-    assigning the agent’s custom variables to the Power Automate flow
-    input parameters.
+3. To configure the LogITTcicket agent flow in the “Reset Password” topic, map each input variable to the corresponding question by assigning the agent’s custom variables to the Power Automate flow input parameters.
 
-4. To map the variable click on “…” dots of Enter or select a value
-    input box and select the appropriate variable
+4. To map the variable click on “…” dots of Enter or select a value input box and select the appropriate variable
 
-Name: empName
+    - Name: empName
 
-Email: email
+    - Email: email
 
-ID: empID
+    - ID: empID
 
-Details: issueType
+    - Details: issueType
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image80.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image80.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image81.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image81.png)
 
 5. Now, add a message node for agent response
 
@@ -847,93 +784,80 @@ incorrect.](./media/image82.png)
 7. Configure the message node by providing the instructions to reset
     password issue, enter the following instructions in the message box
 
-**Message:**
+    **Message:**
 
-To reset your password, please follow these steps:
+    To reset your password, please follow these steps:
 
-1\. Go to the login page.
+    1\. Go to the login page.
 
-2\. Click on the 'Forgot Password' link.
+    2\. Click on the 'Forgot Password' link.
 
-3\. Enter your registered email address.
+    3\. Enter your registered email address.
 
-4\. Check your email for a password reset link.
+    4\. Check your email for a password reset link.
 
-Follow the instructions in the email to reset your password.
+    Follow the instructions in the email to reset your password.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image83.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image83.png)
 
 8. Finally, after configuring all the agent input and output nodes add
     End of conversation node to the topic
 
-9. To add End of conversation node, click on + sign (add a node) icon,
-    go to **Topic** management \> select **Go to another topic** and
-    click on **End of Conversation**
+9. To add End of conversation node, click on + sign (add a node) icon, go to **Topic** management \> select **Go to another topic** and click on **End of Conversation**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image84.png)
 
 10. Click **Save** on top right corner of the Reset password
-    configuration window to save all the configurations to Reset
-    password topic
+    configuration window to save all the configurations to Reset password topic
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image85.png)
 
 ### Task 2.2: Test your Reset Password Topic
 
-11. Before testing, ensure all required connections are properly
-    configured.
+11. Before testing, ensure all required connections are properly configured.
 
-12. In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
-    connections**, then click **Connect** for SharePoint, finally click
-    **Submit** to establish the connections.
+12. In the “**Test your agent”** panel, click the ⋯ menu \> **Manage connections**, then click **Connect** for SharePoint, finally click **Submit** to establish the connections.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image86.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image87.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image88.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image86.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image87.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image88.png)
 
-13. Similarly, In **Manage your connections window,** click **Connect**
-    for **LogITTicket**, and finally click **Submit** to establish the
-    connections.
+13. Similarly, In **Manage your connections window,** click **Connect** for **LogITTicket**, and finally click **Submit** to establish the connections.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image89.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image90.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image89.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image90.png)
 
-14. Navigate to **Test your agent** section and test the topic providing
-    the reset password trigger phrase and enter all the input details
-    and verify the email trigger and input details logged successfully
-    into the IT Support Request list
+14. Navigate to **Test your agent** section and test the topic providing the reset password trigger phrase and enter all the input details and verify the email trigger and input details logged successfully into the IT Support Request list
 
-- **Agent testing initiated with Reset password trigger**
+    - **Agent testing initiated with Reset password trigger**
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image91.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image91.png)
 
-- **After submitting all the required inputs, an email notification will
-  be automatically triggered and sent to**
-  <admin@M365x19277286.onmicrosoft.com>
+    - **After submitting all the required inputs, an email notification will be automatically triggered and sent to** <admin@M365x19277286.onmicrosoft.com>
 
-**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
-In this example, the MOD Admin account was used.
+    > **Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
+    In this example, the MOD Admin account was used.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image92.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image92.png)
 
-- Likewise, the input details are logged into the “IT Support Requests”
-  list within the IT Support Desk SharePoint site.
+    - Likewise, the input details are logged into the “IT Support Requests”
+    list within the IT Support Desk SharePoint site.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image93.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image93.png)
 
 ## Task 3: Create Request VPN Access Topic
 
@@ -1043,15 +967,15 @@ incorrect.](./media/image103.png)
 
 ### Task 3.1: Automate Agent Flow LogITTicket to Request VPN Access Topic 
 
-You can now integrate the ITLogTicket agent flow into the “Request VPN
+You can now integrate the LogITTcicket agent flow into the “Request VPN
 Access” topic.  
 This allows the agent to capture user details and automatically log a
 support ticket for password-related issues
 
-11.  Add ITlogTicket flow after issueType question node
+11.  Add LogITTcicket flow after issueType question node
 
 12.  Click on + sign, navigate to **Add a tool** option and select the
-    agent flow ITlogTicket
+    agent flow LogITTcicket
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image104.png)
@@ -1059,7 +983,7 @@ incorrect.](./media/image104.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image105.png)
 
-13.  To configure the ITLogTicket agent flow in the “Request VPN Access”
+13.  To configure the LogITTcicket agent flow in the “Request VPN Access”
     topic, map each input variable to the corresponding question by
     assigning the agent’s custom variables to the Power Automate flow
     input parameters.
@@ -1307,15 +1231,15 @@ incorrect.](./media/image116.png)
 
 ### Task 4.1: Automate Agent Flow LogITTicket to Install Software Topic 
 
-You can now integrate the ITLogTicket agent flow into the “Install
+You can now integrate the LogITTcicket agent flow into the “Install
 Software” topic.  
 This allows the agent to capture user details and automatically log a
 support ticket for password-related issues
 
-12.  Add ITlogTicket flow after issueType question node
+12.  Add LogITTcicket flow after issueType question node
 
 13.  Click on + sign, navigate to **Add a tool** option and select the
-    agent flow ITlogTicket
+    agent flow LogITTcicket
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image104.png)
@@ -1323,7 +1247,7 @@ incorrect.](./media/image104.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image105.png)
 
-14.  To configure the ITLogTicket agent flow in the “Install Software”
+14.  To configure the LogITTcicket agent flow in the “Install Software”
     topic, map each input variable to the corresponding question by
     assigning the agent’s custom variables to the Power Automate flow
     input parameters.
