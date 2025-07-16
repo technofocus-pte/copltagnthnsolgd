@@ -121,11 +121,13 @@ incorrect.](./media/image6.png)
     look at the top-right corner or the environment selector, and switch
     to the “Dev one” environment to start building or managing your
     agents.
+    
+**Note:** Using the Dev One environment is recommended, but users may proceed with the Default environment if needed. 
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
-6.  Select **“Create”** 🡪 Choose **New Agent**.
+7.  Select **“Create”** 🡪 Choose **New Agent**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image8.png)
