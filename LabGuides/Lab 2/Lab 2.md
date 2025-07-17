@@ -105,55 +105,54 @@ assistant.
 
 1.  Go to Copilot Studio and
     click **Create a new copilot**. 
-```
-https://copilotstudio.microsoft.com/environments/0fe56244-d1d7-efdc-9313-34edaf96940d/home
-```
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image5.png)
+    ```
+    https://copilotstudio.microsoft.com/environments/0fe56244-d1d7-efdc-9313-34edaf96940d/home
+    ```
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image5.png)
 
-![A screenshot of a phone AI-generated content may be
-incorrect.](./media/image6.png)
+    ![A screenshot of a phone AI-generated content may be
+    incorrect.](./media/image6.png)
 
-2.  Click on Skip to configure and enter the following details, and
-    click **Create**
+2.  Click on Skip to configure and enter the following details, and click **Create**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image7.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image7.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image8.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image8.png)
 
-**Name**: Contoso Healthcare Compliance Assistant. 
+    **Name**: Contoso Healthcare Compliance Assistant. 
 
-**Description**: "Create a compliance assistant for a hospital that
-answers HIPAA-related queries and collects monthly compliance reports." 
+    **Description**: "Create a compliance assistant for a hospital that
+    answers HIPAA-related queries and collects monthly compliance reports." 
 
-**Instructions**:
+    **Instructions**:
 
-> You are a healthcare compliance assistant designed for Contoso
-> Hospital. Your responsibilities are:
->
-> 1\. Answer HIPAA-related queries using the uploaded knowledge source
-> (HIPAA Guidelines).
->
-> 2\. Guide users in uploading monthly compliance reports.
->
-> 3\. Collect the user's department name and uploaded file when they
-> submit a report.
->
-> 4\. Trigger a Power Automate flow to store the report in SharePoint
-> and send a confirmation email.
->
-> 5\. Be professional, helpful, and clear in your responses. Avoid legal
-> advice—stick to the policy information provided in your knowledge
-> base.
+    > You are a healthcare compliance assistant designed for Contoso
+    > Hospital. Your responsibilities are:
+    >
+    > 1\. Answer HIPAA-related queries using the uploaded knowledge source
+    > (HIPAA Guidelines).
+    >
+    > 2\. Guide users in uploading monthly compliance reports.
+    >
+    > 3\. Collect the user's department name and uploaded file when they
+    > submit a report.
+    >
+    > 4\. Trigger a Power Automate flow to store the report in SharePoint
+    > and send a confirmation email.
+    >
+    > 5\. Be professional, helpful, and clear in your responses. Avoid legal
+    > advice—stick to the policy information provided in your knowledge
+    > base.
 
 3.  Let Copilot Studio generate the starter agent. 
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image9.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image9.png)
 
-![Shape](./media/image3.png)
+    ![Shape](./media/image3.png)
 
 ## Task 2: Upload HIPAA Knowledge Source 
 
@@ -163,20 +162,19 @@ for accurate knowledge referencing.
 
 1.  Navigate to the **Knowledge** tab 🡪 click **+ Add a file**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image10.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image10.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image11.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image11.png)
 
-2.  Click **+ Add a file** and upload a simulated HIPAA Guidelines PDF
-    or DOC. 
+2.  Click **+ Add a file** and upload a simulated HIPAA Guidelines PDF or DOC. 
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image12.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image12.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image13.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image13.png)
 
 3.  Enable the file for Q&A.
   - Go to the **Settings** tab from top right corner of the window
@@ -184,23 +182,23 @@ incorrect.](./media/image13.png)
   - Turn on the "Orchestration" toggle next to the file
   - Save the settings.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image14.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image14.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image15.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image15.png)
 
 4.  Test the agent using phrases like: 
 
-> "What is PHI under HIPAA?" or
->
-> "Can we store reports on external drives?" 
+    > "What is PHI under HIPAA?" or
+    >
+    > "Can we store reports on external drives?" 
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image16.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image16.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image17.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image17.png)
 
 ## Task 3: Customize Conversation Start Topic
 
@@ -212,24 +210,23 @@ user’s first interaction with the assistant.
 
 2.  Select **Conversation start topic** listed under **System** tab
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image18.png)
 
-3.  Customise the following message in a Message node , and click
-    **Save**
+3.  Customise the following message in a Message node , and click **Save**.
 
-> **Message: Hello I am the Contoso Healthcrae Compliance Assistant**
->
-> **I can help you with**
+    > **Message: Hello I am the Contoso Healthcrae Compliance Assistant**
+    >
+    > **I can help you with**
 
-- **Submit compliance report**
+    - **Submit compliance report**
 
-- **Understand HIPAA**
+    - **Understand HIPAA**
 
-> **How can I help you today?**
+    > **How can I help you today?**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image19.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image19.png)
 
 ## Task 4: Create Submit Compliance Report Topic
 
@@ -237,109 +234,104 @@ Build a topic to collect compliance report details from users. Include
 inputs like summary, date, and file upload prompts. This allows users to
 initiate a report submission via chat.
 
-1.  Navigate to **Topics** 🡪click **+Add a topic** 🡪 **From blank**
+1.  Navigate to **Topics** 🡪click **+Add a topic** 🡪 **From blank**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image20.png)
 
-2.  Click on **Describe what the topic does** and add the following
-    phrases:
+2.  Click on **Describe what the topic does** and add the following phrases:
 
-**Name the topic:** Submit Compliance Report
+    **Name the topic:** Submit Compliance Report
 
-**Update the phrase as follows:**
+    **Update the phrase as follows:**
 
-Create a topic that helps a hospital employee submit a monthly
-compliance report
+    Create a topic that helps a hospital employee submit a monthly
+    compliance report
 
-  "I want to submit a compliance report"
-  
-  "Create a new compliance entry"
-  
-  "Log a monthly report"
-  
-  “What is HIPAA?"
-  
-  "Explain HIPAA rules"
-  
-  "What are HIPAA compliance guidelines?"
-  
-  "How do I stay HIPAA compliant?"
-  
-  "Tell me about HIPAA regulations"
-  
-  "HIPAA privacy rules"
+    "I want to submit a compliance report"
+    
+    "Create a new compliance entry"
+    
+    "Log a monthly report"
+    
+    “What is HIPAA?"
+    
+    "Explain HIPAA rules"
+    
+    "What are HIPAA compliance guidelines?"
+    
+    "How do I stay HIPAA compliant?"
+    
+    "Tell me about HIPAA regulations"
+    
+    "HIPAA privacy rules"
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image21.png)
-
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image22.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image21.png)
 
 3.  Add a question node to collect the user input:
    
 4.  Question node 1:
 
-  **Question: What is the report title?**
+    **Question: What is the report title?**
 
-  **Identify**: **User’s entire response**
+    **Identify**: **User’s entire response**
 
-  **Variable: repTitle**
+    **Variable: repTitle**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image23.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image23.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image24.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image24.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image25.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image25.png)
 
 5.  Question node 2:
    
-  **Question: “Which month does the report cover?”**
+    **Question: “Which month does the report cover?”**
+    
+    **Identify: User’s entire response**
+    
+    **Variable: month**
   
-  **Identify: User’s entire response**
-  
-  **Variable: month**
-  
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image23.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image26.png)
-> 
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image23.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image26.png)
+    > 
 6.  Question node 3:
    
-  **Question: “Please enter a summary of the report”**
-  
-  **Identify: User’s entire response**
-  
-  **Variable:**
+    **Question: “Please enter a summary of the report”**
+    
+    **Identify: User’s entire response**
+    
+    **Variable: summary**
 
-> ![](./media/image27.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image28.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image29.png)
+    > ![](./media/image27.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image28.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image29.png)
 
 7.  Add a message node for agent response on all collected user input;
 
-8.  Click on + sign, select **Send a message** to add a message node and
-    update the message
+8.  Click on + sign, select **Send a message** to add a message node and update the message
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image30.png)
->
-> **Message**: Your compliance report for the month of **{x} month|string** (custom variable) is
-> submitted successfully.
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image30.png)
+    >
+    > **Message**: Your compliance report for the month of **{x} month|string** (custom variable) is
+    > submitted successfully.
 
 9.  Test the Healthcare Compliance Agent for all above agent
     configurations
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image31.png)
 
 # Exercise 2: Healthcare Report Automation with SharePoint
@@ -354,45 +346,41 @@ Create a SharePoint team site for storing compliance artifacts. Choose a
 meaningful name and configure site permissions. It will host your
 compliance list and related files.
 
-1.  Navigate to the **SharePoint** app from Copilot Studio **App
-    launcher**
+1.  Navigate to the **SharePoint** app from Copilot Studio **App launcher**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image32.png)
 
-2.  Click on **+ Create site, and** select the site type (Team site)
+2.  Click on **+ Create site, and** select the site type (Team site).
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image33.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image33.png)
 
-![A screenshot of a computer screen AI-generated content may be
-incorrect.](./media/image34.png)
+    ![A screenshot of a computer screen AI-generated content may be incorrect.](./media/image34.png)
 
-3.  Click **Customize template** 🡪 select the desired template (IT Help
-    Desk)
+3.  Click **Customize template** 🡪 select the desired template (IT Help Desk).
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image35.png)
 
 4.  Enter the site details: name, description and more 🡪 click **Next**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image36.png)
 
-5.  Perform the **Privacy** settings \> click **Create** **site** and
-    **Finish**
+5.  Perform the **Privacy** settings \> click **Create** **site** and **Finish**
 
-> **Privacy settings: Public**
->
-> **Language: English**
+    > **Privacy settings: Public**
+    >
+    > **Language: English**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image37.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image37.png)
 
-**Note**: Creating site may take some time
+    > **Note**: Creating site may take some time
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image38.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image38.png)
 
 ## Task 2: Creating a SharePoint List: ComplianceReport
 

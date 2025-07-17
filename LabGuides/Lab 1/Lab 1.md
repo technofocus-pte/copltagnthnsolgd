@@ -838,6 +838,8 @@ incorrect.](./media/image85.png)
     > ![A screenshot of a computer AI-generated content may be
     > incorrect.](./media/image90.png)
 
+    >**Note:** If the SharePoint connection is not visible, it means that it is already connected.
+
 14. Navigate to **Test your agent** section and test the topic providing the reset password trigger phrase and enter all the input details and verify the email trigger and input details logged successfully into the IT Support Request list
 
     - **Agent testing initiated with Reset password trigger**
@@ -845,34 +847,30 @@ incorrect.](./media/image85.png)
     > ![A screenshot of a computer AI-generated content may be
     > incorrect.](./media/image91.png)
 
-    - **After submitting all the required inputs, an email notification will be automatically triggered and sent to** <admin@M365x19277286.onmicrosoft.com>
+    - **After submitting all the required inputs, an email notification will be automatically triggered and sent to** <inject key="AzureAdUserEmail"></inject>
 
-    > **Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
-    In this example, the MOD Admin account was used.
-
-    ![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image92.png)
 
     - Likewise, the input details are logged into the “IT Support Requests”
     list within the IT Support Desk SharePoint site.
 
-    ![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image93.png)
 
 ## Task 3: Create Request VPN Access Topic
 
-1.  Navigate back to Topics, and add a topic from “**From blank”** and
-    enter the details
+1.  Navigate back to Topics, and add a topic from “**From blank”** and enter the details
 
-> **Name: Request VPN Access**
->
-> **Description: Helps user to request VPN access**
+    > **Name: Request VPN Access**
+    >
+    > **Description: Helps user to request VPN access**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image94.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image94.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image95.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image95.png)
 
 2.  Now to collect the necessary user information, add question nodes to
     the topic.
@@ -885,25 +883,21 @@ incorrect.](./media/image95.png)
     appropriate input type, and finally set the variable name for
     storing the user’s response.
 
-**Question: enter employee name**
+    - **Question: enter employee name**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: empName**
+    - **Variable: empName**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image96.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image96.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image97.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image97.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image98.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image98.png)
 
-5.  Again click on + sign , select Add a question to add new question
-    node
+5.  Again click on + sign , select Add a question to add new question node.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image96.png)
 
 6.  To configure the question node, click inside the “Enter a message”
@@ -911,17 +905,15 @@ incorrect.](./media/image96.png)
     appropriate input type, and finally set the variable name for
     storing the user’s response.
 
-**Question: enter your employee ID**
+    - **Question: enter your employee ID**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: empID**
+    - **Variable: empID**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image99.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image99.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image100.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image100.png)
 
 7.  Again click on + sign , select Add a question to add new question
     node
@@ -931,46 +923,38 @@ incorrect.](./media/image100.png)
     appropriate input type, and finally set the variable name for
     storing the user’s response.
 
-**Question: enter your email address**
+    - **Question: enter your email address**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: email**
+    - **Variable: email**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image101.png)
+        ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image101.png)
 
-9.  Again click on + sign , select Add a question to add new question
-    node
+9.  Again click on + sign , select Add a question to add new question node.
 
-10.  To configure the question node, click inside the “Enter a message”
-    box to add the agent’s question, then click “Identify” to choose the
-    appropriate input type, and finally set the variable name for
-    storing the user’s response.
+10.  To configure the question node, click inside the “Enter a message” box to add the agent’s question, then click “Identify” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-**Question: Please enter the issue type by selecting one of the
-following options:**
+        - **Question: Please enter the issue type by selecting one of the following options:**
 
-- **Request VPN access for Remote Desktop**
+        - **Request VPN access for Remote Desktop**
 
-- **Request VPN access for Team Collaboration**
+        - **Request VPN access for Team Collaboration**
 
-**Identify as: User’s entire response**
+        - **Identify as: User’s entire response**
 
-**Variable: issueType**
+        - **Variable: issueType**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image102.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image102.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image103.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image103.png)
 
 ### Task 3.1: Automate Agent Flow LogITTicket to Request VPN Access Topic 
 
-You can now integrate the LogITTcicket agent flow into the “Request VPN
-Access” topic.  
-This allows the agent to capture user details and automatically log a
-support ticket for password-related issues
+You can now integrate the LogITTcicket agent flow into the “Request VPN Access” topic. This allows the agent to capture user details and automatically log a support ticket for password-related issues.
 
 11.  Add LogITTcicket flow after issueType question node
 
@@ -983,251 +967,207 @@ incorrect.](./media/image104.png)
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image105.png)
 
-13.  To configure the LogITTcicket agent flow in the “Request VPN Access”
-    topic, map each input variable to the corresponding question by
-    assigning the agent’s custom variables to the Power Automate flow
-    input parameters.
+13.  To configure the LogITTcicket agent flow in the “Request VPN Access” topic, map each input variable to the corresponding question by assigning the agent’s custom variables to the Power Automate flow input parameters.
 
-14.  To map the variable, click on “…” dots of Enter or select a value
-    input box and select the appropriate variable
+14.  To map the variable, click on “…” dots of Enter or select a value input box and select the appropriate variable
 
-> **Name: empName**
->
-> **Email: email**
->
-> **ID: empID**
->
-> **Details: issueType**
+        > **Name: empName**
+        >
+        > **Email: email**
+        >
+        > **ID: empID**
+        >
+        > **Details: issueType**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image106.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image106.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image107.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image107.png)
 
 15.  Finally, add a message node send user agent response
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image108.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image108.png)
 
-**Response**: To request VPN access, follow these steps:
+        - **Response**: To request VPN access, follow these steps:
 
-**Identify the VPN Requirements**: Determine the specific VPN service
-you need access to and any requirements or prerequisites for access.
+        - **Identify the VPN Requirements**: Determine the specific VPN service
+        you need access to and any requirements or prerequisites for access.
 
-**Contact IT Support**: Reach out to your organization's IT support
-team. This can usually be done via email, phone, or through a dedicated
-support portal.
+        - **Contact IT Support**: Reach out to your organization's IT support
+        team. This can usually be done via email, phone, or through a dedicated
+        support portal.
 
-**Provide Necessary Information**: When contacting IT support, include
-the following details:
+        - **Provide Necessary Information**: When contacting IT support, include the following details:
 
-Your full name and job title.
+        - Your full name and job title.
 
-Your department or team.
+        - Your department or team.
 
-The reason for requesting VPN access.
+        - The reason for requesting VPN access.
 
-Any specific resources or systems you need to access via the VPN.
+        - Any specific resources or systems you need to access via the VPN.
 
-**Follow Security Protocols**: Ensure you follow any security protocols
-or guidelines provided by your IT department. This may include verifying
-your identity or completing a security training.
+        - **Follow Security Protocols**: Ensure you follow any security protocols
+        or guidelines provided by your IT department. This may include verifying
+        your identity or completing a security training.
 
-**Wait for Approval**: After submitting your request, wait for approval
-from the IT team. They may need to verify your information and ensure
-you meet the requirements for VPN access.
+        - **Wait for Approval**: After submitting your request, wait for approval
+        from the IT team. They may need to verify your information and ensure
+        you meet the requirements for VPN access.
 
-**Install VPN Software**: Once your request is approved, you will
-receive instructions on how to install and configure the VPN software.
-Follow these instructions carefully.
+        - **Install VPN Software**: Once your request is approved, you will
+        receive instructions on how to install and configure the VPN software.
+        Follow these instructions carefully.
 
-**Test the VPN Connection**: After installation, test the VPN connection
-to ensure it is working correctly. If you encounter any issues, contact
-IT support for further assistance.
+        - **Test the VPN Connection**: After installation, test the VPN connection
+        to ensure it is working correctly. If you encounter any issues, contact
+        IT support for further assistance.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image109.png)
+            ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image109.png)
 
 16.  Add **End of conversation** node and click **Save** to save all the
     configuration to Request VPN Access topic
 
-17.  Click on **+** sign, select **Topic management** from the dropdown
-    \> click **Go to another topic** and select **End of
-    converstaion** ndoe
+17.  Click on **+** sign, select **Topic management** from the dropdown \> click **Go to another topic** and select **End of converstaion** ndoe
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image110.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image110.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image111.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image111.png)
 
 ### Task 3.2: Test your Request VPN Access Topic 
 
-18.  Before testing, ensure all required connections are properly
-    configured.
+18.  Before testing, ensure all required connections are properly configured.
 
-19.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
-    connections**, then click **Connect** for SharePoint, finally click
-    **Submit** to establish the connections.
+19.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage connections**, then click **Connect** for SharePoint, finally click **Submit** to establish the connections.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image86.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image87.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image88.png)
+        > ![A screenshot of a computer AI-generated content may be
+        > incorrect.](./media/image86.png)
+        >
+        > ![A screenshot of a computer AI-generated content may be
+        > incorrect.](./media/image87.png)
+        >
+        > ![A screenshot of a computer AI-generated content may be
+        > incorrect.](./media/image88.png)
 
-20.  Similarly, In **Manage your connections window,** click **Connect**
-    for **LogITTicket**, and finally click **Submit** to establish the
-    connections.
+20.  Similarly, In **Manage your connections window,** click **Connect** for **LogITTicket**, and finally click **Submit** to establish the connections.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image89.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image90.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image89.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image90.png)
 
-21.  Navigate to **Test your agent** section and test the topic providing
-    the reset password trigger phrase and enter all the input details
-    and verify the email trigger and input details logged successfully
-    into the IT Support Request list
+    >**Note:** If the SharePoint connection is not visible, it means that it is already connected.
 
-- **Agent testing initiated with Reset password trigger**
+21.  Navigate to **Test your agent** section and test the topic providing the reset password trigger phrase and enter all the input details and verify the email trigger and input details logged successfully into the IT Support Request list
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image91.png)
+        - **Agent testing initiated with Reset password trigger**
 
-- **After submitting all the required inputs, an email notification will
-  be automatically triggered and sent to**
-  <admin@M365x19277286.onmicrosoft.com>
+            > ![A screenshot of a computer AI-generated content may be
+            > incorrect.](./media/image91.png)
 
-**Note:** Sign in with your own account credentials (not the MOD Admin account) to proceed.
-In this example, the MOD Admin account was used.
+        - After submitting all the required inputs, an email notification will be automatically triggered and sent to **<inject key="AzureAdUserEmail"></inject>**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image112.png)
+            ![A screenshot of a computer AI-generated content may be incorrect.](./media/image112.png)
 
-- Likewise, the input details are logged into the “IT Support Requests”
-  list within the IT Support Desk SharePoint site.
+        - Likewise, the input details are logged into the “IT Support Requests” list within the IT Support Desk SharePoint site.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image113.png)
+            ![A screenshot of a computer AI-generated content may be incorrect.](./media/image113.png)
 
 ## Task 4: Crete Install Software Topic
 
-1.  Go to **Topics** window from agent's overview page \> click **+ Add
-    a topic** \> select **From blank**
+1.  Go to **Topics** window from agent's overview page \> click **+ Add a topic** \> select **From blank**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image94.png)
 
 2. Enter the following details, and click Create
 
-> **Name your topic: Install Software**
->
-> **Create a topic to: Help user to install Zoom and Power BI software
-> applications**
+    > **Name your topic: Install Software**
+    >
+    > **Create a topic to: Help user to install Zoom and Power BI software
+    > applications**
 
-**Note**: We are limiting the software installation for Zoom and Power
-BI applications.
+    > **Note**: We are limiting the software installation for Zoom and Power BI applications.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image114.png)
 
-3. Now to collect the necessary user information, add question nodes to
-    the topic.
+3. Now to collect the necessary user information, add question nodes to the topic.
 
-4. Click on + sign to add a new node, select Ask a question option to
-    add the question node
+4. Click on + sign to add a new node, select Ask a question option to add the question node
 
-5.  To configure the question node, click inside the “Enter a message”
-    box to add the agent’s question, then click “Identify” to choose the
-    appropriate input type, and finally set the variable name for
-    storing the user’s response.
+5.  To configure the question node, click inside the “Enter a message” box to add the agent’s question, then click “Identify” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-**Question: enter employee name**
+    - **Question: enter employee name**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: empName**
+    - **Variable: empName**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image96.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image96-01.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image97.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image97.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image98.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image98.png)
 
-6.  Again click on + sign , select Add a question to add new question
-    node
+6.  Again click on + sign , select Add a question to add new question node.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image96.png)
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image96-01.png)
 
-7.  To configure the question node, click inside the “Enter a message”
-    box to add the agent’s question, then click “Identify” to choose the
-    appropriate input type, and finally set the variable name for
-    storing the user’s response.
+7.  To configure the question node, click inside the “Enter a message” box to add the agent’s question, then click “Identify” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-**Question: enter your employee ID**
+    - **Question: enter your employee ID**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: empID**
+    - **Variable: empID**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image99.png)
+        ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image99.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image100.png)
+        ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image100.png)
 
-8.  Again click on + sign , select Add a question to add new question
-    node
+8.  Again click on + sign , select Add a question to add new question node.
 
-9. To configure the question node, click inside the “Enter a message”
-    box to add the agent’s question, then click “Identify” to choose the
-    appropriate input type, and finally set the variable name for
-    storing the user’s response.
+9. To configure the question node, click inside the “Enter a message” box to add the agent’s question, then click “Identify” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-**Question: enter your email address**
+    - **Question: enter your email address**
 
-**Identify as: User’s entire response**
+    - **Identify as: User’s entire response**
 
-**Variable: email**
+    - **Variable: email**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image101.png)
 
-10. Again click on + sign , select Add a question to add new question
-    node
+10. Again click on + sign , select Add a question to add new question node.
 
 &nbsp;
 
-11. To configure the question node, click inside the “Enter a message”
-    box to add the agent’s question, then click “Identify” to choose the
-    appropriate input type, and finally set the variable name for
-    storing the user’s response.
+11. To configure the question node, click inside the “Enter a message” box to add the agent’s question, then click “Identify” to choose the appropriate input type, and finally set the variable name for storing the user’s response.
 
-> **Question: Which software application would you like to install?**
+    > **Question: Which software application would you like to install?**
 
-- **Install Zoom**
+    - **Install Zoom**
 
-- **Install Power BI**
+    - **Install Power BI**
 
-> **Identify as: User’s entire response**
->
-> **Variable:issueType**
+    > **Identify as: User’s entire response**
+    >
+    > **Variable:issueType**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image115.png)
-
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image116.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image115.png)
 
 ### Task 4.1: Automate Agent Flow LogITTicket to Install Software Topic 
 
@@ -1241,33 +1181,29 @@ support ticket for password-related issues
 13.  Click on + sign, navigate to **Add a tool** option and select the
     agent flow LogITTcicket
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image104.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image104.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image105.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image105.png)
 
-14.  To configure the LogITTcicket agent flow in the “Install Software”
-    topic, map each input variable to the corresponding question by
-    assigning the agent’s custom variables to the Power Automate flow
-    input parameters.
+14.  To configure the LogITTcicket agent flow in the “Install Software” topic, map each input variable to the corresponding question by assigning the agent’s custom variables to the Power Automate flow input parameters.
 
-15.  To map the variable, click on “…” dots of Enter or select a value
-    input box and select the appropriate variable
+15.  To map the variable, click on “…” dots of Enter or select a value input box and select the appropriate variable
 
-> **Name: empName**
->
-> **Email: email**
->
-> **ID: empID**
->
-> **Details: issueType**
+        > **Name: empName**
+        >
+        > **Email: email**
+        >
+        > **ID: empID**
+        >
+        > **Details: issueType**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image106.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image106.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image107.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image107.png)
 
 16.  dd a condition node to verify the user response for the given
     options
@@ -1275,166 +1211,146 @@ incorrect.](./media/image107.png)
 17.  Click on **+ Add a node** 🡪 select **Add a condition** from the
     dropdown
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image117.png)
 
-- Set the condition1 as: issueType is equal to Install Power BI
+    - Set the condition1 as: issueType is equal to Install Power BI
 
-- Set condition2 as issueType is equal to Install Zoom
+    - Set condition2 as issueType is equal to Install Zoom
 
 18.  If both conditions are not satisfied, then add
     the **Fallback** response for all other conditions
 
-![A screenshot of a computer AI-generated content may be
+        ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image118.png)
 
 19.  click on + sign to add a new node, go to **Topic management** 🡪
     click **Go to another topic** 🡪 and select **Fallback**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image119.png)
-
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image120.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image119.png)
 
 20. Configure the **Condition 1: issueType is equal to Power BI** node:
 
-Click on **+** add a new node sign, select **Send a message** option to
-add message node and enter the sgent repsonse in the message node as:
+    Click on **+** add a new node sign, select **Send a message** option to
+    add message node and enter the sgent repsonse in the message node as:
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image121.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image121.png)
 
-**Messgae**: Steps to Install Power BI
+    **Messgae**: Steps to Install Power BI
 
-1\. Go to the Official Site
+    1\. Go to the Official Site
 
-Visit: https://powerbi.microsoft.com/desktop
+    Visit: https://powerbi.microsoft.com/desktop
 
-2\. Click on ‘Download Free’
+    2\. Click on ‘Download Free’
 
-Click the Download Free button and follow the prompts.
+    Click the Download Free button and follow the prompts.
 
-3\. Install the Downloaded File
+    3\. Install the Downloaded File
 
-Once the .msi installer downloads, double-click it.
+    Once the .msi installer downloads, double-click it.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image122.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image122.png)
 
-21. Similarly, add a message node after **Condition 2: issueType is
-    equal to Zoom** and enter the agent response to install Zoom app
+21. Similarly, add a message node after **Condition 2: issueType is equal to Zoom** and enter the agent response to install Zoom app
 
-**Message:** Steps to install Zoom
+    **Message:** Steps to install Zoom
 
-1\. Visit the Zoom Download Page
+    1\. Visit the Zoom Download Page
 
-Go to: https://zoom.us/download
+    Go to: https://zoom.us/download
 
-2\. Choose the Right Version for Your Device
+    2\. Choose the Right Version for Your Device
 
-For Desktop (Windows/Mac/Linux):
+    For Desktop (Windows/Mac/Linux):
 
-Download "Zoom Desktop Client" by clicking the Download button.
+    Download "Zoom Desktop Client" by clicking the Download button.
 
-For Mobile (Android/iOS):
+    For Mobile (Android/iOS):
 
-Use your device’s app store:
+    Use your device’s app store:
 
-Google Play Store for Android
+    Google Play Store for Android
 
-App Store for iOS
+    App Store for iOS
 
-Search for "Zoom Cloud Meetings"
+    Search for "Zoom Cloud Meetings"
 
-3\. Download and Install
+    3\. Download and Install
 
-Desktop: Run the downloaded .exe (Windows) or .pkg (Mac) file and follow
-the on-screen instructions.
+    Desktop: Run the downloaded .exe (Windows) or .pkg (Mac) file and follow
+    the on-screen instructions.
 
-Mobile: Tap Install (Android) or Get (iOS) and wait for it to complete.
+    Mobile: Tap Install (Android) or Get (iOS) and wait for it to complete.
 
-4\. Launch Zoom
+    4\. Launch Zoom
 
-Open Zoom from your Start Menu, Applications folder, or Home Screen.
+    Open Zoom from your Start Menu, Applications folder, or Home Screen.
 
-You can now sign in, join a meeting, or host a meeting.
+    You can now sign in, join a meeting, or host a meeting.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image123.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image123.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image124.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image124.png)
 
 22.  After all the necessary configurations, add **End of
     conversation** over closing all the conditional nodes:
 
-23.  **To add End of conversation node**: click on **+** sign Add a node,
-    select **Topic management** \> select **Go to another topic** and,
-    finally select **End of conversation** node
+23.  **To add End of conversation node**: click on **+** sign Add a node, select **Topic management** \> select **Go to another topic** and, finally select **End of conversation** node
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image125.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image125.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image126.png)
+        ![A screenshot of a computer AI-generated content may be
+        incorrect.](./media/image126.png)
 
-24.  click on **Save** button to save the configuration for **Install
-    Softwrae** topic
+24.  click on **Save** button to save the configuration for **Install Software** topic
 
 ### Task 4.2: Test your Install Software Topic
 
-1.  Before testing, ensure all required connections are properly
-    configured.
+1.  Before testing, ensure all required connections are properly configured.
 
-2.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage
-    connections**, then click **Connect** for SharePoint, finally click
-    **Submit** to establish the connections.
+2.  In the “**Test your agent”** panel, click the ⋯ menu \> **Manage connections**, then click **Connect** for SharePoint, finally click **Submit** to establish the connections.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image86.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image87.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image88.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image86.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image87.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image88.png)
 
-3.  Similarly, In **Manage your connections window,** click **Connect**
-    for **LogITTicket**, and finally click **Submit** to establish the
-    connections.
+3. Similarly, In **Manage your connections window,** click **Connect** for **LogITTicket**, and finally click **Submit** to establish the connections.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image89.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image90.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image89.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image90.png)
 
-4.  Navigate to **Test your agent** section and test the topic providing
-    the reset password trigger phrase and enter all the input details
-    and verify the email trigger and input details logged successfully
-    into the IT Support Request list
+    >**Note:** If the SharePoint connection is not visible, it means that it is already connected.
 
-- **Agent testing initiated with Install Software trigger**
+4. Navigate to **Test your agent** section and test the topic providing the reset password trigger phrase and enter all the input details and verify the email trigger and input details logged successfully into the IT Support Request list
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image127.png)
+    - **Agent testing initiated with Install Software trigger**
 
-- After submitting all the required inputs, an email notification will
-  be automatically triggered and sent to
-  admin@M365x19277286.onmicrosoft.com
-  
-**Note:** Use your own account credentials (not the MOD Admin account) to proceed.
-In this example, the MOD Admin account was used.
+        ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image127.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image128.png)
+    - After submitting all the required inputs, an email notification will be automatically triggered and sent to
+    **<inject key="AzureAdUserEmail"></inject>**
 
-- Likewise, the input details are logged into the “IT Support Requests”
-  list within the IT Support Desk SharePoint site.
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image128.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image129.png)
+    - Likewise, the input details are logged into the “IT Support Requests” list within the IT Support Desk SharePoint site.
+
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image129.png)
 
 ## Task 5: Add Escalation Topic 
 
@@ -1442,43 +1358,36 @@ incorrect.](./media/image129.png)
 
 2.  Configure the Escalation topic:
 
-> **Name: Talk to IT Support**
->
-> **Message: “You can reach our IT support team**  
-> *Email us at: <admin@M365x09815490.onmicrosoft.com>*
->
-> **Trigger phrases: “speak to a person”, “this didn’t help”.**
+    > **Name: Talk to IT Support**
+    >
+    > **Message: “You can reach our IT support team**  
+    > *Email us at: <inject key="AzureAdUserEmail"></inject>*
+    >
+    > **Trigger phrases: “speak to a person”, “this didn’t help”.**
 
-**Note:** Use your own account credentials (not the MOD Admin account) to proceed.
-In this example, the MOD Admin account was used.
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image130.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image130.png)
-
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image131.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image131.png)
 
 3.  click on **Describe what the topic does** node and enter the trigger
     phrases:
 
-- **“speak to a person”,**
+    - **“speak to a person”,**
 
-- **“this didn’t help”. **
+    - **“this didn’t help”.**
 
-4.  Now, click on **+** sign and select **Send a message** option to add
-    a message node and enter the Message:
+4.  Now, click on **+** sign and select **Send a message** option to add a message node and enter the Message:
 
-> **“You can reach our IT support team.**
->
-> **Email us at: <admin@M365x09815490.onmicrosoft.com>”**
+    > **“You can reach our IT support team.**
+    >
+    > **Email us at: <inject key="AzureAdUserEmail"></inject>”**
 
-**Note:** Use your own account credentials (not the MOD Admin account) to proceed.
-In this example, the MOD Admin account was used.
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image132.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image132.png)
-
-![Shape](./media/image3.png)
+    ![Shape](./media/image3.png)
 
 # Exercise 5: Agent Validation and Teams Deployment
 
@@ -1489,18 +1398,18 @@ the final test for the all the configurations done so far
 
 1.  Use the **Test bot** in Copilot Studio to simulate sample flows. 
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image133.png)
 
 2.  Try testing with the Trigger phrase **Reset password**, verify the
     response and check the MOD Admin account for email triggered and IT
     Support Requests SharePoint list updated with the new input
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image134.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image135.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image134.png)
+    >
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](./media/image135.png)
 
 3.  Now try testing with another pharse **Request VPN Access**, verify
     the response and check the MOD Admin account for email triggered and
@@ -1528,68 +1437,60 @@ incorrect.](./media/image140.png)
 
 ## Task 2: Deploy Agent to Teams Application
 
-After successful agent validation deploy the agent Contoso IT Assistant
-to Teams application
+After successful agent validation deploy the agent Contoso IT Assistant to Teams application
 
-1. Click **Publish** to publish the agent, if it hasn’t been published
-    already.
+1. Click **Publish** to publish the agent, if it hasn’t been published already.
 
 2. Navigate to the **Channels** tab on the top bar and select
     **Microsoft Teams** from the list of available channels.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image141.png)
 
 3. Click on Add channel in Agent preview window
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image142.png)
 
 4. Select See agent in teams on Teams and Microsoft 365 Copilot page
 
-![A screenshot of a chat AI-generated content may be
+    ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image143.png)
 
-5. Select **"Use the web app instead"**, then click the **Add** or
-    **Update** button to add the agent to your Microsoft Teams
-    application.
+5. Select **"Use the web app instead"**, then click the **Add** or **Update** button to add the agent to your Microsoft Teams application.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image144.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image144.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image145.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image145.png)
 
-6. In your Teams web app, if the **Contoso IT Assistant** isn’t
-    visible:
+6. In your Teams web app, if the **Contoso IT Assistant** isn’t visible:
 
-- Use the **search bar at the top** to search for *Contoso IT Assistant*
-  and open the listed agent.  
-  **Or**
+    - Use the **search bar at the top** to search for *Contoso IT Assistant* and open the listed agent.     **Or**
 
-- Click on **More options (… icon)** in the left navigation pane, then
+    - Click on **More options (… icon)** in the left navigation pane, then
   search for and select the **Contoso IT Assistant** app.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image146.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image146.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image147.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image147.png)
 
-7. Perform agent interaction using Reset password, Install software,
-    and Request VPN Access triggers and verify the response
+7. Perform agent interaction using Reset password, Install software, and Request VPN Access triggers and verify the response
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image148.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image148.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image149.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image149.png)
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](./media/image150.png)
+    ![A screenshot of a chat AI-generated content may be
+    incorrect.](./media/image150.png)
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](./media/image151.png)
+    ![A screenshot of a chat AI-generated content may be
+    incorrect.](./media/image151.png)
 
 8. **Connect to continue:**  
     Click the **Allow** button to let Microsoft Teams use your
