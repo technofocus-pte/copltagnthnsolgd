@@ -832,11 +832,9 @@ incorrect.](./media/image85.png)
 
 13. Similarly, In **Manage your connections window,** click **Connect** for **LogITTicket**, and finally click **Submit** to establish the connections.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](./media/image89.png)
+    > ![A screenshot of a computer AI-generated content may be incorrect.](./media/image89.png)
     >
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](./media/image90.png)
+    > ![A screenshot of a computer AI-generated content may be incorrect.](./media/image90.png)
 
     >**Note:** If the SharePoint connection is not visible, it means that it is already connected.
 
