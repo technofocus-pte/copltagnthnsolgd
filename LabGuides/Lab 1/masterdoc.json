@@ -1,0 +1,13 @@
+[
+  {
+    "Name": "Smart-IT-Helpdesk-Agent",
+    "Language": "English",
+    "BaseURL": "https://github.com/technofocus-pte/copltagnthnsolgd",
+    "Files": [
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/technofocus-pte/copltagnthnsolgd/refs/heads/main/LabGuides/Lab%201/Lab%201.md",
+        "Order": 1
+      }
+    ]
+  }
+]
