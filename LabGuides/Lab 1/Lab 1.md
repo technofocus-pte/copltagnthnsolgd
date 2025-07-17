@@ -1209,12 +1209,11 @@ support ticket for password-related issues
 17.  Click on **+ Add a node** 🡪 select **Add a condition** from the
     dropdown
 
-        ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image117.png)
+        ![A screenshot of a computer AI-generated content may be incorrect.](./media/image117.png)
 
-    - Set the condition1 as: issueType is equal to Install Power BI
-
-    - Set condition2 as issueType is equal to Install Zoom
+        - Set the condition1 as: issueType is equal to Install Power BI
+    
+        - Set condition2 as issueType is equal to Install Zoom
 
 18.  If both conditions are not satisfied, then add
     the **Fallback** response for all other conditions
